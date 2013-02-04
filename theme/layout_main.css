@@ -14,7 +14,7 @@
         url({T_THEME_PATH}/images/hdr_l.gif) top left repeat-y,
         url({T_THEME_PATH}/images/hdr_b.gif) bottom left repeat-x,
         url({T_THEME_PATH}/images/header_g2.png) top center repeat-y,
-        #ececec url({T_THEME_PATH}/images/header_g1.png) top left repeat-x;
+        #335167 url({T_THEME_PATH}/images/header_g1.png) top left repeat-x;
 }
 .old-ie #header {
     padding-bottom: 0;
@@ -72,13 +72,13 @@
     white-space: nowrap;
     font-weight: normal;
     line-height: 1.4em;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     text-shadow: rgba(0, 0, 0, 0.1) 1px 2px 1px;
 }
 
 #header h1 {
     font-size: 24px;
-    color: #737373;
+    color: #335167;
 }
 #header p {
     font-size: 16px;
@@ -96,7 +96,7 @@
 
 #nav-header, #search-adv {
     display: block;
-    float: left;
+    float: right;
     z-index: 1;
     margin-left: 5px;
     font-size: 12px;
@@ -110,7 +110,7 @@
     padding: 0;
     padding-left: 15px;
     line-height: 1em;
-    color: #737373;
+    color: #335167;
     background: url({T_THEME_PATH}/images/menu.png) top left no-repeat;
     text-decoration: none;
     transition: none;
@@ -129,7 +129,7 @@
     height: 21px;
     background: url({T_THEME_PATH}/images/menu2.png) top right no-repeat;
     font-size: 14px;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 
 .menu-buttons a:hover, .menu-buttons a.new, #search-adv a:hover {
@@ -144,20 +144,21 @@
 #nav-header strong { font-weight: normal; }
 
 #search-adv {
-    float: right;
+    float: left;
     z-index: 1;
     margin-left: 0;
     margin-right: 5px;
 }
 #search-box {
     position: relative;
-    float: right;
+    float: left;
     z-index: 1;
     width: 174px;
     height: 27px;
     background: url({T_THEME_PATH}/images/header_search.png) 0 0 no-repeat;
     margin: 0 4px 5px;
     padding: 3px 0 0 26px;
+    direction: rtl;
 }
 #search-box:hover { background-position: 0 -40px; }
 #search-box form { 
@@ -181,8 +182,8 @@
     width: 160px;
     line-height: 1em;
     font-size: 14px;
-    font-family: Arial;
-    color: #737373;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    color: #335167;
     outline-style: none;
     -webkit-appearance: none;
 }
@@ -236,7 +237,7 @@
     text-align: center;
     font-weight: normal;
     font-size: 14px;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 #footer .copyright a, #footer .copyright a:visited {
     color: #666;
@@ -255,6 +256,7 @@ body.simple .copyright {
 .copyright .copy-left {
     float: left;
     text-align: left;
+    direction:rtl;
 }
 .copyright .copy-right {
     float: right;
@@ -267,8 +269,9 @@ body.simple .copyright {
 #page-body { 
     padding: 0 10px 45px;
     clear: both;
+    direction:rtl;
 }
-#page-body > p, .section-index #page-body > form { margin: 6px 4px; }
+#page-body > p, .section-index #page-body > form { margin: 6px 4px; line-height:1.5em; direction:rtl; }
 #page-body > p.rightside { margin-top: 0; }
 body.simple #page-body > h2.solo {
     margin-top: 10px;
@@ -278,7 +281,7 @@ body.simple #page-body > h2.solo {
     Navigation
 */
 .nav-links {
-    clear: left;
+    clear: right;
     height: 36px;
     margin: 0;
     padding: 0 10px;
@@ -286,7 +289,7 @@ body.simple #page-body > h2.solo {
 }
 .nav-links a {
     display: block;
-    float: left;
+    float: right;
     height: 30px;
     padding-right: 15px;
     margin-right: 6px;
@@ -299,17 +302,17 @@ body.simple #page-body > h2.solo {
 .nav-links a span {
     display: block;
     background: url({T_THEME_PATH}/images/nav2.png) 0 0 no-repeat;
-    margin-left: -10px;
+    margin-right: -10px;
     padding-top: 8px;
     padding-left: 14px;
     height: 22px;
     font-size: 14px;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     white-space: nowrap;
     max-width: 200px;
     overflow: hidden;
-    color: #737373;
+    color: #335167;
 }
 .nav-links a:first-child span {
     background-image: url({T_THEME_PATH}/images/nav2a.png);
@@ -325,8 +328,8 @@ body.simple #page-body > h2.solo {
 
 .nav-extra {
     z-index: 2;
-    clear: right;
-    float: right;
+    clear: left;
+    float: left;
     position: relative;
     top: -8px;
     font-size: 11px;
@@ -357,8 +360,8 @@ div.rules .inner {
     -moz-webkit-radius: 8px;
 }
 div.rules .inner > strong { 
-    color: #737373; 
-    font-family: Arial;
+    color: #335167; 
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     font-size: 14px;
     font-weight: normal;
     line-height: 1.4em;

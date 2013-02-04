@@ -54,7 +54,7 @@ div#message h2, #confirm h2, #agreement h2 {
     padding-right: 13px;
     height: 22px;
     background: url({T_THEME_PATH}/images/tabs_left.png) top right no-repeat;
-    color: #737373;
+    color: #335167;
 }
 #tabs li a:hover, #tabs li.activetab a, #navigation li a:hover, #navigation li#active-subsection a, #minitabs li a:hover, #minitabs li.activetab a {
     background-position: bottom left;
@@ -87,7 +87,7 @@ div#message h2, #confirm h2, #agreement h2 {
     background-position: bottom left;
 }
 #navigation strong, #tabs strong, #minitabs strong { 
-    color: #737373; 
+    color: #335167; 
     font-weight: normal;
 }
 li.activetab strong, #active-subsection strong,
@@ -107,7 +107,7 @@ div.cp-panel {
 p.linkmcp { color: #444; }
 
 #cp-main > h2, #cp-main > form > h2 {
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-weight: normal;
 	margin: 8px 0;
 	padding: 0;
@@ -198,7 +198,7 @@ dl.mini dt {
 	color: #444;
 	font-size: 14px;
 	line-height: 1.3em;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 
 dl.mini dd {
@@ -270,7 +270,7 @@ ol.def-rules li {
 }
 
 .pmlist li.pm_replied_colour dl, .pm_replied_colour {
-	border-color: #737373;
+	border-color: #335167;
 }
 
 .pmlist li.pm_friend_colour dl, .pm_friend_colour {
@@ -317,7 +317,7 @@ ol.def-rules li {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.4em;
-	color: #737373;
+	color: #335167;
 }
 
 #topicreview {
@@ -369,7 +369,7 @@ dl.faq {
 
 dl.faq dt {
 	font-weight: normal;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-size: 14px;
 	color: #da2220;
 	line-height: 1.4em;
@@ -415,7 +415,7 @@ table.table1 th {
     color: rgba(255, 255, 255, 0.9);
 	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
     font-size: 12px;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1.2em;
     padding: 3px 4px;
 }
@@ -515,7 +515,7 @@ div.dropdown-tabs {
 div.dropdown-tabs > a {
     display: inline-block;
     font-size: 14px;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     white-space: nowrap;
     margin: 0;
@@ -523,7 +523,7 @@ div.dropdown-tabs > a {
     padding-top: 8px;
     padding-right: 28px;
     height: 22px;
-    color: #737373;
+    color: #335167;
     background: url({T_THEME_PATH}/images/tabs_popup.png) top right no-repeat;
 }
 div.dropdown-tabs:hover { background-position: bottom left; }

@@ -29,6 +29,7 @@ ul.topiclist {
     clear: both;
     list-style-type: none;
     margin: 0;
+    direction: rtl;
 }
 ul.topiclist li {
     display: block;
@@ -48,7 +49,7 @@ ul.topiclist li.header {
     -webkit-border-radius: 6px;
     color: rgba(255, 255, 255, 0.9);
 	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 ul.topiclist li.header a, ul.topiclist li.header a:visited { 
     color: rgba(255, 255, 255, 0.9);
@@ -75,15 +76,15 @@ ul.topiclist li.row dl {
 }
 
 ul.topiclist li.row {
-    margin-left: 8px;
+    margin-right: 8px;
 }
 ul.topiclist li.row dl.icon {
-    margin-left: -14px;
+    margin-right: -14px;
 }
 
 ul.topiclist dt {
 	display: block;
-	float: left;
+	float: right;
 	width: 50%;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -137,7 +138,7 @@ ul.topiclist li.row dt a.subforum.unread {
 }
 
 .feed-icon-forum {
-    float: right;
+    float: left;
     display: block;
     width: 18px;
     height: 18px;
@@ -183,16 +184,16 @@ li.header dl.icon dt {
 /* Forum list column styles */
 dl.icon {
 	min-height: 35px;
-	background-position: 0 50%;		/* Position of folder icon */
+	background-position: 100% 0;		/* Position of folder icon */
 	background-repeat: no-repeat;
 }
 
 dl.icon dt {
-	padding-left: 30px;					/* Space for folder icon */
+	padding-right: 30px;					/* Space for folder icon */
 	background-repeat: no-repeat;
 	background-position: 12px 100%;		/* Position of topic icon */
 	font-size: 12px;
-	line-height: 1.28em;
+	line-height: 1.5em;
 }
 
 dl.icon dt div.extra {
@@ -211,7 +212,7 @@ a.forumtitle, a.topictitle {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.28em;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 .unread a.forumtitle, .unread a.forumtitle:visited, 
 .unread a.topictitle, .unread a.topictitle:visited, 
@@ -240,6 +241,7 @@ dl.icon dt li {
 dd.lastpost {
 	width: 25%;
 	font-size: 11px;
+	line-height: 1.5em;
 }
 
 dd.redirect {
@@ -322,11 +324,11 @@ div[class].topic-actions {
 
 /* Buttons */
 .buttons {
-    float: left;
+    float: right;
 }
 .buttons div {
 	float: left;
-	margin: 0 5px 0 0;
+	margin: 0 0 0 5px;
 	background-position: 0 100%;
 }
 .old-ie .buttons div {
@@ -334,7 +336,7 @@ div[class].topic-actions {
 }
 .buttons div a {
     font-size: 14px;
-    font-family: Arial;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     white-space: nowrap;
     display: inline-block;
@@ -344,7 +346,7 @@ div[class].topic-actions {
     height: 22px;
     text-decoration: none;
     text-align: center;
-    color: #737373;
+    color: #335167;
     background: url({T_THEME_PATH}/images/buttons.png) top right no-repeat;
 }
 .browser-ie .buttons div a {
@@ -392,7 +394,7 @@ div[class].topic-actions {
 	text-align: right;
 	margin-top: 5px;
 	margin-bottom: 3px;
-	float: right;
+	float: left;
 }
 
 .pagination span.page-sep {
@@ -411,8 +413,8 @@ li.pagination {
 	padding: 0 3px;
 	margin: 0 2px;
 	font-weight: normal;
-	border: solid 1px #737373;
-    background-color: #737373;
+	border: solid 1px #335167;
+    background-color: #335167;
     color: #fff;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -450,7 +452,7 @@ li.pagination {
 /* Pagination in viewforum for multipage topics */
 .row .pagination {
 	display: block;
-	float: right;
+	float: left;
 	width: auto;
 	margin-top: -4px;
 	padding: 1px 0 0 15px;

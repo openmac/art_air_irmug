@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    font-family: Verdana;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1.2em;
     font-size: 12px;
     color: #000;
@@ -27,7 +27,7 @@ body.simple {
 }
 
 a, a:visited {
-    color: #737373;
+    color: #335167;
     text-decoration: none;
     transition: color 0.25s ease;
     -webkit-transition: color 0.25s ease;
@@ -330,6 +330,7 @@ dl.details dd {
     font-weight: normal;
     text-shadow: rgba(128, 128, 128, 0.1) 2px 2px 0;
     margin: 20px 2px 10px;
+    direction:rtl;
 }
 #page-body > h2, #page-body > form > h2, #page-body > h3, #page-body > form > h3, div#message h2, #confirm h2, #agreement h2, 
 #page-body h2.title a, #page-body h2.title a:visited { color: #da2220; }
