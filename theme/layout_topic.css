@@ -233,7 +233,7 @@ dd .signature {
 	color: #555;
 	border-left: 1px solid #ddd;
 	width: 22%;
-	float: right;
+	float: left;
 	word-wrap: break-word;
 }
 .pm .postprofile {

@@ -258,8 +258,8 @@ a.up, a.down, a.left, a.right, a.top, a.top2 {
 }
 
 .left-box {
-    float: left;
-    text-align: left;
+    float: right;
+    text-align: right;
     width: auto;
 }
 
@@ -305,10 +305,10 @@ dl.details {
 }
 
 dl.details dt {
-	float: left;
+	float: right;
 	clear: left;
 	width: 30%;
-	text-align: right;
+	text-align: left;
 	color: #444;
 	display: block;
 }
@@ -318,7 +318,7 @@ dl.details dd {
 	padding-left: 5px;
 	margin-bottom: 5px;
 	color: #222;
-	float: left;
+	float: right;
 	width: 65%;
 }
 
