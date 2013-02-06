@@ -382,14 +382,14 @@ dl.faq dt strong { font-weight: normal; }
 }
 
 .column1 {
-	float: left;
-	clear: left;
+	float: right;
+	clear: right;
 	width: 49%;
 }
 
 .column2 {
-	float: right;
-	clear: right;
+	float: left;
+	clear: left;
 	width: 49%;
 }
 
