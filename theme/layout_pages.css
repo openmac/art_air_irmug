@@ -31,7 +31,7 @@ div#message h2, #confirm h2, #agreement h2 {
 }
 #tabs li, #navigation li, #minitabs li {
     display: block;
-    float: left;
+    float: right;
 }
 #tabs li a, #navigation li a, #minitabs li a {
     display: block;
@@ -504,7 +504,7 @@ form#login, form#register {
 #tabs { overflow: visible; }
 div.dropdown-tabs {
     position: relative;
-    float: left;
+    float: right;
     margin: 0;
     margin-right: 20px;
     padding: 0;

@@ -273,7 +273,7 @@ fieldset.submit-buttons {
 /* Emoticons panel */
 #smiley-box {
 	width: 18%;
-	float: right;
+	float: left;
 }
 
 #smiley-box img {
