@@ -28,6 +28,7 @@ div#message h2, #confirm h2, #agreement h2 {
 }
 #tabs ul, #navigation ul, #minitabs ul {
     list-style-type: none;
+    float:right;
 }
 #tabs li, #navigation li, #minitabs li {
     display: block;
