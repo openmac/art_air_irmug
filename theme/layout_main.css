@@ -106,7 +106,6 @@
 .menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited {
     display: block;
     float: right;
-    direction:rtl;
     margin: 0 19px 5px 4px;
     padding: 0;
     padding-left: 15px;
