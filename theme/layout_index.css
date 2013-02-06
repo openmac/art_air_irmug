@@ -398,7 +398,9 @@ div[class].topic-actions {
 }
 
 .pagination span.page-sep {
-	display: none;
+	display: inline;
+	visibility: hidden;
+	position: absolute;
 }
 
 li.pagination {
