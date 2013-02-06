@@ -384,13 +384,13 @@ dl.faq dt strong { font-weight: normal; }
 .column1 {
 	float: right;
 	clear: right;
-	width: 49%;
+	//width: 49%;
 }
 
 .column2 {
 	float: left;
 	clear: left;
-	width: 49%;
+	//width: 49%;
 }
 
 
