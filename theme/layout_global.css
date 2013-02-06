@@ -264,7 +264,7 @@ a.up, a.down, a.left, a.right, a.top, a.top2 {
 }
 
 p.rightside, li.rightside, ul.rightside, ul.linklist li.rightside, .right-box { 
-    float: right; 
+    float: left; 
     margin-left: 5px;
     margin-right: 0;
 }

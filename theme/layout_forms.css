@@ -106,7 +106,7 @@ fieldset dd {
 
 /* Specific layout 1 */
 fieldset.fields1 dt {
-	width: 15em;
+	width: 5em;
 	border-right-width: 0;
 }
 
