@@ -31,7 +31,7 @@ div#message h2, #confirm h2, #agreement h2 {
 }
 #tabs li, #navigation li, #minitabs li {
     display: block;
-    float: right;
+    float: left;
 }
 #tabs li a, #navigation li a, #minitabs li a {
     display: block;
