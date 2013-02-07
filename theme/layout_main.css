@@ -2,11 +2,12 @@
     Header and footer
 */
 #header {
-    margin: 0 10px;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
     min-height: 30px;
     padding-bottom: 5px;
+    max-width: 900px;
     background: #ebebeb none repeat-x 0 0;
     background: url({T_THEME_PATH}/images/hdr_br.gif) bottom right no-repeat,
         url({T_THEME_PATH}/images/hdr_bl.gif) bottom left no-repeat,
@@ -89,8 +90,9 @@
 
 #page-header {
     clear: both;
-    margin: -16px 15px 0;
+    margin: -16px auto 0;
     min-height: 10px;
+    max-width: 890px;
 }
 
 #nav-header, #search-adv {
@@ -207,6 +209,8 @@
     font-size: 11px;
     color: #888;
     text-shadow: none;
+    max-width: 880px;
+    margin: 0 auto;
     background: #ececec url({T_THEME_PATH}/images/header_g2.png) top center repeat-y;
     background: url({T_THEME_PATH}/images/hdr_tr.gif) top right no-repeat,
         url({T_THEME_PATH}/images/hdr_tl.gif) top left no-repeat,
@@ -269,6 +273,8 @@ body.simple .copyright {
     padding: 0 10px 45px;
     clear: both;
     direction:rtl;
+    max-width: 900px;
+    margin: 0 auto;
 }
 #page-body > p, .section-index #page-body > form { margin: 6px 4px; line-height:1.5em; direction:rtl; }
 #page-body > p.rightside { margin-top: 0; }
