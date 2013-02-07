@@ -30,6 +30,8 @@ a, a:visited {
     color: #335167;
     text-decoration: none;
     transition: color 0.25s ease;
+    direction: rtl;
+	unicode-bidi: embed;
     -webkit-transition: color 0.25s ease;
     -moz-transition: color 0.25s ease;
     -o-transition: color 0.25s ease;

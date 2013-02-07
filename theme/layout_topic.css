@@ -416,6 +416,7 @@ dl.codebox code {
 	/* Also see tweaks.css */
 	overflow: auto;
 	display: block;
+	direction:ltr;
 	height: auto;
 	max-height: 200px;
 	white-space: normal;
@@ -436,7 +437,7 @@ dl.codebox code {
 /* Attachments
 ----------------------------------------*/
 .attachbox {
-	float: left;
+	float: right;
 	width: auto; 
 	margin: 5px 5px 5px 0;
 	padding: 6px;

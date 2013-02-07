@@ -50,6 +50,7 @@ ul.topiclist li.header {
     color: rgba(255, 255, 255, 0.9);
 	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-weight: bold;
 }
 ul.topiclist li.header a, ul.topiclist li.header a:visited { 
     color: rgba(255, 255, 255, 0.9);
@@ -210,7 +211,7 @@ dd.posts, dd.topics, dd.views {
 
 a.forumtitle, a.topictitle {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.28em;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
@@ -476,3 +477,7 @@ li.pagination {
 /* Login on index */
 body.section-index #page-body > form > h3 { display: none; }
 
+a.topicjadid {
+	font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+	font-size: 1.2em;
+}
