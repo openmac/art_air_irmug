@@ -7,14 +7,13 @@
     text-align: center;
     min-height: 30px;
     padding-bottom: 5px;
-    background: #ececec url({T_THEME_PATH}/images/header_g1.png) top left repeat-x;
+    background: #ebebeb none repeat-x 0 0;
     background: url({T_THEME_PATH}/images/hdr_br.gif) bottom right no-repeat,
         url({T_THEME_PATH}/images/hdr_bl.gif) bottom left no-repeat,
         url({T_THEME_PATH}/images/hdr_r.gif) top right repeat-y,
         url({T_THEME_PATH}/images/hdr_l.gif) top left repeat-y,
         url({T_THEME_PATH}/images/hdr_b.gif) bottom left repeat-x,
-        url({T_THEME_PATH}/images/header_g2.png) top center repeat-y,
-        #335167 url({T_THEME_PATH}/images/header_g1.png) top left repeat-x;
+        #274B66 url({T_THEME_PATH}/images/bg_header.gif) top left repeat-x;
 }
 .old-ie #header {
     padding-bottom: 0;
@@ -62,7 +61,7 @@
     margin: 0; 
     padding: 0;
     opacity: 1 !important;
-    max-width: 100%;
+    max-width: 70%;
 }
 
 #header p, #header h1 {
