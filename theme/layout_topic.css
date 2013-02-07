@@ -24,6 +24,7 @@
 	float: left;
 	clear: both;
 	word-wrap: break-word;
+	padding-right: 6px;
 }
 
 .postbody .ignore {
