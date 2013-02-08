@@ -43,7 +43,7 @@ ul.topiclist li.header {
     padding: 1px 0;
     border: solid 1px #a9a9a9;
     background: #939393 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
-    background: url({T_THEME_PATH}/images/header_g2.png) top center repeat-y, #939393 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
+    //background: url({T_THEME_PATH}/images/header_g2.png) top center repeat-y, #939393 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;

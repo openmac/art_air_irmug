@@ -259,7 +259,6 @@ body.simple .copyright {
 .copyright .copy-left {
     float: left;
     text-align: left;
-    direction:rtl;
 }
 .copyright .copy-right {
     float: right;
