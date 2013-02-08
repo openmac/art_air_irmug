@@ -41,8 +41,8 @@ ul.topiclist li {
 ul.topiclist li.header {
     margin: 0 0 2px;
     padding: 1px 0;
-    border: solid 1px #a9a9a9;
-    background: #939393 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
+    border: solid 1px #143751;
+    background: #143751 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
     //background: url({T_THEME_PATH}/images/header_g2.png) top center repeat-y, #939393 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
     border-radius: 6px;
     -moz-border-radius: 6px;
@@ -193,7 +193,7 @@ dl.icon dt {
 	padding-right: 30px;					/* Space for folder icon */
 	background-repeat: no-repeat;
 	background-position: 12px 100%;		/* Position of topic icon */
-	font-size: 12px;
+	font-size: 11.5px;
 	line-height: 1.5em;
 }
 
@@ -479,5 +479,6 @@ body.section-index #page-body > form > h3 { display: none; }
 
 a.topicjadid {
 	font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
-	font-size: 1.2em;
+	font-size: 14px;
+	font-weight: bold;
 }
