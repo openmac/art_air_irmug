@@ -59,7 +59,7 @@
 }
 #header a img {
 	display: inline-block;
-    margin: 0; 
+    margin-top: 13px; 
     padding: 0;
     opacity: 1 !important;
     max-width: 70%;
