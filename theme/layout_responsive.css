@@ -32,6 +32,12 @@
 	#nav-header { display: none !important; }
 	.responsive-menu-nojs:hover #nav-header, .responsive-menu-visible #nav-header { display: block !important; }
 
+
+	.menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited {
+		float:left;
+		}
+		
+	
 	.responsive-menu-visible .responsive-menu-hide { display: block !important; }
 
 	/* forums/topics lists */
