@@ -515,6 +515,7 @@ div.dropdown-tabs {
 }
 div.dropdown-tabs > a {
     display: inline-block;
+    direction: ltr;
     font-size: 14px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
