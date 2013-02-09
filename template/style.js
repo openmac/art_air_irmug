@@ -289,5 +289,12 @@ $(document).ready(function() {
     resizeFooter();
     $(document).load(resizeFooter);
     $(window).resize(resizeFooter);
+
+    // fallback to .png logo when SVG is not available
+    if (!window.Modernizr.svg) {
+        var old_src = $('#logo img')[0].getAttribute('src');
+        var new_src = old_src.replace('.svg', '.png') ;
+        $('#logo img')[0].setAttribute('src', new_src);
+    }
 });
 

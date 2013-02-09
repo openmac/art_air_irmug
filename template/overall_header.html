@@ -79,6 +79,7 @@
 // ]]>
 </script>
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/modernizer-svg.min.js"></script>
 <!--[if lte IE 8]><script type="text/javascript"> var oldIE = true; </script><![endif]-->
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/style.js"></script>
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/forum_fn.js"></script>
@@ -148,7 +149,9 @@
 <body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
 
 <div id="header">
-    <a href="{U_INDEX}" title="{L_INDEX}" id="logo">{SITE_LOGO_IMG}</a>
+    <a href="{U_INDEX}" title="{L_INDEX}" id="logo">
+      <img src="./styles/art_air_irmug/imageset/logo.svg" alt="" title="">
+    </a>
     <h1>{SITENAME}</h1>
     <p>{SITE_DESCRIPTION}</p>
 </div>
