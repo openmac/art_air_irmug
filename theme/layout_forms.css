@@ -178,7 +178,7 @@ fieldset.quick-login input {
 }
 
 fieldset.quick-login input.inputbox {
-	width: 15%;
+	width: 110px;
 	vertical-align: middle;
 	margin-right: 5px;
 }
