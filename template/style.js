@@ -292,9 +292,9 @@ $(document).ready(function() {
 
     // fallback to .png logo when SVG is not available
     if (!window.Modernizr.svg) {
-        var old_src = $('#logo img')[0].getAttribute('src');
-        var new_src = old_src.replace('.svg', '.png') ;
-        $('#logo img')[0].setAttribute('src', new_src);
+		$('#logo img').attr('src', function(_, val) {
+			return val.replace('.svg', '.png');
+		});
     }
 });
 
