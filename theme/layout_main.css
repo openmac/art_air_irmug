@@ -351,8 +351,9 @@ body.simple #page-body > h2.solo {
     Rules
 */
 div.rules {
-    margin: 6px 0;
+    margin: 6px auto;
     padding: 1px;
+    width: 100px;
     background: #faf6f6;
     border: solid 1px #cc908f;
     border-radius: 10px;
@@ -362,7 +363,7 @@ div.rules {
 }
 div.rules .inner {
     background: #f5dfdf;
-    padding: 6px;
+    //padding: 6px;
     border-radius: 8px;
     -moz-border-radius: 8px;
     -moz-webkit-radius: 8px;
