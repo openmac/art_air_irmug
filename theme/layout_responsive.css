@@ -220,6 +220,7 @@
 	#page-body > h2, #page-body > form > h2, #page-body > h3, #page-body > form > h3, div#message h2, #confirm h2, #agreement h2, #page-body h2.title a, #page-body h2.title a:visited {
 		clear: both;
 		float: none;
+		line-height: 1.5em;
 	}
 }
 

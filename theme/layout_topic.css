@@ -42,8 +42,8 @@
 	text-transform: none;
 	border: none;
 	line-height: 125%;
-	font-weight: normal;
-	font-size: 16px;
+	font-weight: bold;
+	font-size: 14px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 .postbody h3, .postbody h3 a, .postbody h3 a:visited { color: #335167; }
