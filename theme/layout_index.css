@@ -66,6 +66,8 @@ ul.topiclist li.header a:hover, ul.topiclist li.header a:active {
 ul.topiclist li.header dt, ul.topiclist li.header dd {
     font-size: 12px;
     line-height: 1.2em;
+    border-right-width: 0px;
+	margin-right: 3px;
 }
 
 ul.topiclist dl { 
@@ -96,10 +98,11 @@ ul.topiclist .header dt { min-height: 0; }
 
 ul.topiclist dd {
 	display: block;
-	float: left;
+	float: right;
 	padding: 4px 0 2px;
-	border-left: 1px solid #e0e0e0;
-    transition: border-left-color 0.25s ease;
+	border-right: 1px solid #e0e0e0;
+	border-left: medium none;
+    transition: border-right-color 0.25s ease;
     -webkit-transition: border-left-color 0.25s ease;
     -moz-transition: border-left-color 0.25s ease;
     -o-transition: border-left-color 0.25s ease;
@@ -240,7 +243,7 @@ dl.icon dt li {
 }
 
 dd.lastpost {
-	width: 25%;
+	width: 28%;
 	font-size: 11px;
 	line-height: 1.5em;
 }
@@ -260,7 +263,7 @@ dd.moderation {
 
 dd.lastpost span, ul.topiclist dd.searchby span, ul.topiclist dd.info span, ul.topiclist dd.time span, dd.redirect span, dd.moderation span {
 	display: block;
-	padding-left: 5px;
+	padding-right: 5px;
 }
 
 dd.time {
