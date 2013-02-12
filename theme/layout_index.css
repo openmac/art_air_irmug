@@ -67,7 +67,7 @@ ul.topiclist li.header dt, ul.topiclist li.header dd {
     font-size: 12px;
     line-height: 1.2em;
     border-right-width: 0px;
-	margin-right: 3px;
+	//margin-right: 3px;
 }
 
 ul.topiclist dl { 
@@ -176,7 +176,7 @@ li.header dd {
 
 li.header dl {
 	min-height: 0;
-	padding-left: 6px;
+	//padding-left: 6px;
 }
 
 li.header dl.icon dt {
