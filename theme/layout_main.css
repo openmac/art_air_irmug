@@ -323,7 +323,7 @@ body.simple #page-body > h2.solo {
 }
 .nav-links a:first-child span {
     background-image: url({T_THEME_PATH}/images/nav2a.png);
-    padding-left: 25px;
+    padding-right: 25px;
     background-position: 100% 0px;
 }
 .nav-links a:hover {
