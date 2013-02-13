@@ -12,7 +12,7 @@ ul.linklist {
 }
 ul.linklist li {
     display: block;
-    float: left;
+    float: right;
     list-style-type: none;
     margin-right: 5px;
 }
