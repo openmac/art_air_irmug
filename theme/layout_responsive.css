@@ -104,6 +104,12 @@
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
+	
+	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
+		padding: 2px 6px;
+	}
+	
+	
 	.search-box { margin-left: 0; }
 	.search-box input.button2 { opacity: 1; }
 	#forum-search, #topic-search { display: none; }
@@ -233,4 +239,11 @@
 	}
 	ul.topiclist dd { display: none; }
 	ul.topiclist dd.mark { display: block; }
+}
+
+@media only screen and (device-width: 768px)
+{
+	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
+		padding: 2px 6px;
+	}
 }
