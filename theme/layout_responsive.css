@@ -113,6 +113,9 @@
 		padding: 2px 6px;		
 	}
 	
+	.row .pagination {
+		margin-top: 0px;
+	}
 	
 	.search-box { margin-left: 0; }
 	.search-box input.button2 { opacity: 1; }
