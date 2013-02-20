@@ -11,17 +11,8 @@
     background: #203045 none repeat-x 0 0;
     background: #203045 url({T_THEME_PATH}/images/bg/header.png) repeat;
 }
-@media all and (min-width: 900px) {
-    #header {
-            -webkit-border-bottom-right-radius: 14px;
-            -moz-border-bottom-right-radius: 14px;
-            border-bottom-right-radius: 14px;
-            -webkit-border-bottom-left-radius: 14px;
-            -moz-border-bottom-left-radius: 14px;
-            border-bottom-left-radius: 14px;
-    }
-}
 
+/* POORIA: Maybe we should remove these?*/
 .old-ie #header {
     padding-bottom: 0;
 }
