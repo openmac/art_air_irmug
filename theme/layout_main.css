@@ -354,16 +354,18 @@ div.rules {
 }
 div.rules .inner {
     background: #f5dfdf;
-    /*padding: 6px;*/
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 8px;
     -moz-border-radius: 8px;
     -moz-webkit-radius: 8px;
-}
-div.rules .inner > strong { 
-    color: #335167; 
+    color: #335167;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 15px;
+    font-weight: bold;
     line-height: 1.4em;
 }
 #information .inner, #newpm .inner {
