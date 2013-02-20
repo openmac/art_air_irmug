@@ -59,7 +59,11 @@ img { border-width: 0; }
     Rounded blocks, transitions
 */
 div.rules, div.post, .panel, .cp-mini, ul.topiclist li {
-    background: url({T_THEME_PATH}/images/hdr2_br.gif) bottom right no-repeat, url({T_THEME_PATH}/images/hdr2_bl.gif) bottom left no-repeat, url({T_THEME_PATH}/images/hdr2_tr.gif) top right no-repeat, url({T_THEME_PATH}/images/hdr2_tl.gif) 0 0 no-repeat, url({T_THEME_PATH}/images/hdr2_r.gif) top right repeat-y, url({T_THEME_PATH}/images/hdr2_l.gif) top left repeat-y, url({T_THEME_PATH}/images/hdr2_b.gif) bottom left repeat-x, #f1f1f1 url({T_THEME_PATH}/images/hdr2_t.gif) 0 0 repeat-x;
+    background-color: #f1f1f1;
+    border: solid 1px #d2d2d2 !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 .old-ie div.old-ie-wrap-2, .old-ie .old-ie-wrap-2, .old-ie ul.topiclist li {
     padding: 0 !important;
