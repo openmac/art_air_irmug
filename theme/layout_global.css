@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 html, body {
-    background: #e6e6e6 url({T_THEME_PATH}/images/header_g2.png) top center repeat-y;
+    background: #dfe2e2 url({T_THEME_PATH}/images/bg/paper.png) repeat;
 }
 body.simple { 
     width: auto; 

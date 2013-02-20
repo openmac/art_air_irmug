@@ -42,8 +42,10 @@ ul.topiclist li.header {
     margin: 0 0 2px;
     padding: 1px 0;
     border: solid 1px #143751;
-    background: #143751 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
-    //background: url({T_THEME_PATH}/images/header_g2.png) top center repeat-y, #939393 url({T_THEME_PATH}/images/th.gif) 0 0 repeat-x;
+
+    background: #36445D none repeat-x 0 0;
+    background: #36445D url({T_THEME_PATH}/images/bg/topiclist.png) repeat;
+
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
