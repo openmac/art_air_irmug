@@ -109,7 +109,7 @@ ul.topiclist li.row {
     background: url({T_THEME_PATH}/images/hdr2_br.gif) bottom right no-repeat;
 }
 div.forabg, div.forumbg, div.panel-wrapper {
-    background: url({T_THEME_PATH}/images/hdr1_br.gif) bottom right no-repeat, url({T_THEME_PATH}/images/hdr1_bl.gif) bottom left no-repeat, url({T_THEME_PATH}/images/hdr1_tr.gif) top right no-repeat, url({T_THEME_PATH}/images/hdr1_tl.gif) top left no-repeat;
+    /*background: url({T_THEME_PATH}/images/hdr1_br.gif) bottom right no-repeat, url({T_THEME_PATH}/images/hdr1_bl.gif) bottom left no-repeat, url({T_THEME_PATH}/images/hdr1_tr.gif) top right no-repeat, url({T_THEME_PATH}/images/hdr1_tl.gif) top left no-repeat;*/
     padding: 6px;
 }
 .old-ie div.old-ie-wrap-1 {
