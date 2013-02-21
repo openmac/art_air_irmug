@@ -64,10 +64,10 @@ div.rules, div.post, .panel, .cp-mini, ul.topiclist li {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
 }
-div.post, .panel, .cp-mini {
+div.post, .cp-mini {
     border: solid 1px #d2d2d2 !important;
 }
-ul.topiclist li.row {
+ul.topiclist li.row, .panel {
     -moz-box-shadow: inset 0 0 1px 1px #d2d2d2;
     -webkit-box-shadow: inset 0 0 1px 1px #d2d2d2;
     box-shadow: inset 0 0 1px 1px #d2d2d2;
