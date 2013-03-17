@@ -237,6 +237,10 @@ dd .signature {
 	float: left;
 	word-wrap: break-word;
 }
+.postprofile img {
+	max-width: 180px;
+	height: auto;
+}
 .pm .postprofile {
 	border-left: 1px solid #ddd;
 }

@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 html, body {
-    background: #e6e6e6 url({T_THEME_PATH}/images/header_g2.png) top center repeat-y;
+    background: #dfe2e2 url({T_THEME_PATH}/images/bg/paper.png) repeat;
 }
 body.simple { 
     width: auto; 
@@ -59,7 +59,18 @@ img { border-width: 0; }
     Rounded blocks, transitions
 */
 div.rules, div.post, .panel, .cp-mini, ul.topiclist li {
-    background: url({T_THEME_PATH}/images/hdr2_br.gif) bottom right no-repeat, url({T_THEME_PATH}/images/hdr2_bl.gif) bottom left no-repeat, url({T_THEME_PATH}/images/hdr2_tr.gif) top right no-repeat, url({T_THEME_PATH}/images/hdr2_tl.gif) 0 0 no-repeat, url({T_THEME_PATH}/images/hdr2_r.gif) top right repeat-y, url({T_THEME_PATH}/images/hdr2_l.gif) top left repeat-y, url({T_THEME_PATH}/images/hdr2_b.gif) bottom left repeat-x, #f1f1f1 url({T_THEME_PATH}/images/hdr2_t.gif) 0 0 repeat-x;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+div.post, .panel, .cp-mini, ul.topiclist li.row{
+    -moz-box-shadow: inset 0 0 1px 1px #d2d2d2;
+    -webkit-box-shadow: inset 0 0 1px 1px #d2d2d2;
+    box-shadow: inset 0 0 1px 1px #d2d2d2;
+}
+div.post.bg2 {
+    background-color: #e7e7e7;
 }
 .old-ie div.old-ie-wrap-2, .old-ie .old-ie-wrap-2, .old-ie ul.topiclist li {
     padding: 0 !important;
@@ -101,7 +112,7 @@ div.rules, div.post, .panel, .cp-mini, ul.topiclist li {
     background: url({T_THEME_PATH}/images/hdr2_br.gif) bottom right no-repeat;
 }
 div.forabg, div.forumbg, div.panel-wrapper {
-    background: url({T_THEME_PATH}/images/hdr1_br.gif) bottom right no-repeat, url({T_THEME_PATH}/images/hdr1_bl.gif) bottom left no-repeat, url({T_THEME_PATH}/images/hdr1_tr.gif) top right no-repeat, url({T_THEME_PATH}/images/hdr1_tl.gif) top left no-repeat;
+    /*background: url({T_THEME_PATH}/images/hdr1_br.gif) bottom right no-repeat, url({T_THEME_PATH}/images/hdr1_bl.gif) bottom left no-repeat, url({T_THEME_PATH}/images/hdr1_tr.gif) top right no-repeat, url({T_THEME_PATH}/images/hdr1_tl.gif) top left no-repeat;*/
     padding: 6px;
 }
 .old-ie div.old-ie-wrap-1 {
