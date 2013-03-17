@@ -161,18 +161,20 @@
 		<a href="javascript:void(0);"><!-- IF L_MENU --><span>{L_MENU}</span><!-- ELSE --><span class="arrow">&darr;&darr;&darr;</span><!-- ENDIF --></span></a>
 	</div>
 
-    <div id="nav-header" class="menu-buttons">
-        <!-- IF not S_IS_BOT and S_USER_LOGGED_IN -->
-            <a href="{U_PROFILE}" title="{L_PROFILE}" accesskey="e"><span>{L_PROFILE}</span></a> 
+
+<!-- IF not S_IS_BOT --><!-- IF not S_USER_LOGGED_IN and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) --><div id="login-irmug"><a href="{U_LOGIN_LOGOUT}" title="ورود / عضویت" accesskey="x"><span>ورود / عضویت</span></a>
+<a href="http://wiki.irmug.com/"><span>ویکی</span></a> </div> <!-- ENDIF --> <!-- ENDIF -->
+<!-- IF not S_IS_BOT and S_USER_LOGGED_IN --><div id="login-irmug">
+<a href="http://wiki.irmug.com/"><span>ویکی</span></a>
+ <a href="{U_PROFILE}" title="{L_PROFILE}" accesskey="e"><span>کنترل پنل</span></a> </div> <!-- ENDIF -->
+    <div id="nav-header" class="menu-buttons"> 
             <!-- IF U_RESTORE_PERMISSIONS -->
                 <a href="{U_RESTORE_PERMISSIONS}"><span>{L_RESTORE_PERMISSIONS}</span></a> 
             <!-- ENDIF -->
-        <!-- ENDIF -->
         <a href="{U_FAQ}" title="{L_FAQ_EXPLAIN}"><span>{L_FAQ}</span></a> 
         <!-- IF not S_IS_BOT -->
             <!-- IF S_DISPLAY_MEMBERLIST --><a href="{U_MEMBERLIST}" title="{L_MEMBERLIST_EXPLAIN}"><span>{L_MEMBERLIST}</span></a> <!-- ENDIF -->
-            <!-- IF not S_USER_LOGGED_IN and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) --><a href="{U_REGISTER}"><span>{L_REGISTER}</span></a> <!-- ENDIF -->
-             <a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x"><span>{L_LOGIN_LOGOUT}</span></a> 
+             	 <!-- IF S_USER_LOGGED_IN --><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x"><span>{L_LOGIN_LOGOUT}</span></a> <!-- ENDIF -->
         <!-- ENDIF -->
         <a href="javascript:void(0);" class="responsive-menu-hide" style="display:none;"><span>X</span></a>
     </div>

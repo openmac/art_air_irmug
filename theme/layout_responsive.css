@@ -36,6 +36,9 @@
 	.menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited {
 		float:left;
 		}
+	#login-irmug a, #login-irmug a:visited, {
+		float:right;
+	}	
 		
 	
 	.responsive-menu-visible .responsive-menu-hide { display: block !important; }

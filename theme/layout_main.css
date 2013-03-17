@@ -95,25 +95,36 @@
     max-width: 890px;
 }
 
-#nav-header, #search-adv {
+#search-adv, #login-irmug {
     display: block;
     float: right;
     z-index: 1;
-    margin-left: 5px;
+    margin-right: 5px;
     font-size: 12px;
     line-height: 1em;
     text-align: center;
 }
-.menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited {
+#nav-header {
+	display: block;
+    float: right;
+    z-index: 1;
+    margin-right: 0px;
+    font-size: 12px;
+    line-height: 1em;
+    text-align: center;
+}
+
+.menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited, #login-irmug a, #login-irmug a:visited {
     display: block;
     float: right;
     direction:ltr;
-    margin: 0 19px 5px 4px;
+    margin: 0 14px 5px 4px;
     padding: 0;
-    padding-left: 15px;
+    padding-left: 10px;
     line-height: 1em;
     color: #335167;
     background: url({T_THEME_PATH}/images/menu.png) top left no-repeat;
+    background-size: 365px 70px;
     text-decoration: none;
     transition: none;
     -webkit-transition: none;
@@ -121,24 +132,24 @@
     -o-transition: none;
     -ms-transition: none;
 }
-.menu-buttons a span, #search-adv a span {
+.menu-buttons a span, #search-adv a span, #login-irmug a span {
     display: inline-block;
-    margin: 0;
-    margin-right: -15px;
+    margin: 0 -15px 0 0;
     padding: 0;
-    padding-right: 15px;
+    padding-right: 10px;
     padding-top: 9px;
     height: 21px;
     background: url({T_THEME_PATH}/images/menu2.png) top right no-repeat;
+    background-size: 15px 70px;
     font-size: 14px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     direction:rtl;
 }
 
-.menu-buttons a:hover, .menu-buttons a.new, #search-adv a:hover {
+.menu-buttons a:hover, .menu-buttons a.new, #search-adv a:hover, #login-irmug a:hover {
     background-position: bottom left;
 }
-.menu-buttons a:hover span, .menu-buttons a.new span, #search-adv a:hover span {
+.menu-buttons a:hover span, .menu-buttons a.new span, #search-adv a:hover span, #login-irmug a:hover span {
     background-position: bottom right;
     color: #da2220;
 }
@@ -150,16 +161,19 @@
     float: left;
     z-index: 1;
     margin-left: 0;
-    margin-right: 5px;
+    }
+#login-irmug {
+	float:right;
 }
 #search-box {
     position: relative;
     float: left;
     z-index: 1;
-    width: 174px;
+    width: 129px;
     height: 27px;
     background: url({T_THEME_PATH}/images/header_search.png) 0 0 no-repeat;
-    margin: 0 4px 5px;
+    background-size: 155px 70px;
+    margin: 0 0px 5px;
     padding: 3px 0 0 26px;
     direction: rtl;
 }
@@ -182,7 +196,7 @@
     border-radius: 0;
     background: transparent;
     height: 16px;
-    width: 160px;
+    width: 115px;
     line-height: 1em;
     font-size: 14px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
@@ -301,6 +315,7 @@ body.simple #page-body > h2.solo {
     margin-right: 6px;
     margin-bottom: 5px;
     background: url({T_THEME_PATH}/images/nav.png) left 0 no-repeat;
+    background-size: 490px 70px;
 }
 .nav-links a, .nav-links a:visited, .nav-links a:hover, .nav-links a:active {
     outline-style: none;
@@ -308,6 +323,7 @@ body.simple #page-body > h2.solo {
 .nav-links a span {
     display: block;
     background: url({T_THEME_PATH}/images/nav2.png) 100% 0 no-repeat;
+    background-size: 10px 70px;
     margin-right: -10px;
     padding-top: 8px;
     padding-left: 14px;
@@ -323,6 +339,7 @@ body.simple #page-body > h2.solo {
 }
 .nav-links a:first-child span {
     background-image: url({T_THEME_PATH}/images/nav2a.png);
+    background-size: 25px 70px;
     padding-right: 25px;
     background-position: 100% 0px;
 }
