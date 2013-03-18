@@ -13,9 +13,9 @@ input[type="text"], input[type="password"], select, textarea {
     color: #154356;
     outline-style: none;
     border: solid 1px #d3d3d3;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     padding: 5px 10px 5px 8px;
@@ -312,9 +312,9 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
     background: #f4f4f4;
     color: #154356;
     border: solid 1px #d3d3d3;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     padding: 4px 8px;
