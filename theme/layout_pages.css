@@ -55,7 +55,7 @@ div#message h2, #confirm h2, #agreement h2 {
     padding-right: 13px;
     height: 22px;
     background: url({T_THEME_PATH}/images/tabs_left.png) top right no-repeat;
-    color: #335167;
+    color: #154356;
 }
 #tabs li a:hover, #tabs li.activetab a, #navigation li a:hover, #navigation li#active-subsection a, #minitabs li a:hover, #minitabs li.activetab a {
     background-position: bottom left;
@@ -88,7 +88,7 @@ div#message h2, #confirm h2, #agreement h2 {
     background-position: bottom left;
 }
 #navigation strong, #tabs strong, #minitabs strong { 
-    color: #335167; 
+    color: #154356; 
     font-weight: normal;
 }
 li.activetab strong, #active-subsection strong,
@@ -271,7 +271,7 @@ ol.def-rules li {
 }
 
 .pmlist li.pm_replied_colour dl, .pm_replied_colour {
-	border-color: #335167;
+	border-color: #154356;
 }
 
 .pmlist li.pm_friend_colour dl, .pm_friend_colour {
@@ -318,7 +318,7 @@ ol.def-rules li {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.4em;
-	color: #335167;
+	color: #154356;
 }
 
 #topicreview {
@@ -525,7 +525,7 @@ div.dropdown-tabs > a {
     padding-top: 8px;
     padding-right: 28px;
     height: 22px;
-    color: #335167;
+    color: #154356;
     background: url({T_THEME_PATH}/images/tabs_popup.png) top right no-repeat;
 }
 div.dropdown-tabs:hover { background-position: bottom left; }

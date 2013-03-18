@@ -7,9 +7,21 @@
     padding: 0;
     padding-bottom: 30px;
     min-height: 30px;
-    max-width: 900px;
-    background: #203045 none repeat-x 0 0;
-    background: #203045 url({T_THEME_PATH}/images/bg/header.png) repeat;
+    background: #154356 none repeat-x 0 0;
+    background-image: linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(21,66,86)),
+	color-stop(0.96, rgb(28,88,110)),
+	color-stop(0, rgb(21,66,86))
+	);
 }
 
 /* POORIA: Maybe we should remove these?*/
@@ -75,7 +87,7 @@
 
 #header h1 {
     font-size: 24px;
-    color: #335167;
+    color: #154356;
 }
 #header p {
     font-size: 16px;
@@ -119,7 +131,7 @@
     padding: 0;
     padding-left: 10px;
     line-height: 1em;
-    color: #335167;
+    color: #154356;
     background: url({T_THEME_PATH}/images/menu.png) top left no-repeat;
     background-size: 365px 70px;
     text-decoration: none;
@@ -197,7 +209,7 @@
     line-height: 1em;
     font-size: 14px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
-    color: #335167;
+    color: #154356;
     outline-style: none;
     -webkit-appearance: none;
 }
@@ -222,10 +234,24 @@
     vertical-align: bottom;
     line-height: 1.3em;
     font-size: 11px;
-    color: #aaa;
+    color: rgba(255, 255, 255, 0.8);
     text-shadow: none;
-    background: #203045 none repeat-x 0 0;
-    background: #203045 url({T_THEME_PATH}/images/bg/header.png) repeat;
+    background: #eeeeee repeat-x;
+    background-image: linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(21,66,86)),
+	color-stop(0.96, rgb(28,88,110)),
+	color-stop(0, rgb(21,66,86))
+	);
+
 }
 #footer, .old-ie #footer .hdr6 {
     padding: 8px 10px 6px;
@@ -236,6 +262,12 @@
     padding: 0;
     max-height: auto;
 }
+
+#footer .copyright {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 #footer .copyright:after {
 	content: '';
 	display: block;
@@ -250,7 +282,7 @@
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 #footer .copyright a, #footer .copyright a:visited {
-    color: #666;
+    color: #aaa;
 }
 #footer .copyright a:hover {
     color: #da2220;
@@ -326,7 +358,7 @@ body.simple #page-body > h2.solo {
     white-space: nowrap;
     max-width: 200px;
     overflow: hidden;
-    color: #335167;
+    color: #154356;
 }
 .nav-links a:first-child span {
     background-image: url({T_THEME_PATH}/images/nav2a.png);
@@ -379,7 +411,7 @@ div.rules .inner {
     border-radius: 8px;
     -moz-border-radius: 8px;
     -moz-webkit-radius: 8px;
-    color: #335167;
+    color: #154356;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     font-size: 15px;
     font-weight: bold;

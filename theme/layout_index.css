@@ -41,10 +41,23 @@ ul.topiclist li {
 ul.topiclist li.header {
     margin: 0 0 2px;
     padding: 1px 0;
-    border: solid 0px #143751 !important;
+    border: solid 1px #143751 !important;
 
-    background: #36445D none repeat-x 0 0;
-    background: #36445D url({T_THEME_PATH}/images/bg/topiclist.png) repeat;
+    background: #154356 none repeat-x 0 0;
+	background-image: linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
+
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(21,66,86)),
+	color-stop(0.96, rgb(28,88,110)),
+	color-stop(0, rgb(21,66,86))
+);
 
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -143,15 +156,6 @@ ul.topiclist li.row dt a.subforum.unread {
 	margin-right: 5px;
 }
 
-.feed-icon-forum {
-    float: left;
-    display: block;
-    width: 18px;
-    height: 18px;
-    background: url({T_THEME_PATH}/images/rss.png) 0 0 no-repeat;
-}
-.feed-icon-forum:hover { background-position: 0 -20px; }
-.feed-icon-forum span { display: none; }
 
 li.row {
 }
@@ -352,7 +356,7 @@ div[class].topic-actions {
     height: 22px;
     text-decoration: none;
     text-align: center;
-    color: #335167;
+    color: #154356;
     background: url({T_THEME_PATH}/images/buttons.png) top right no-repeat;
 }
 .browser-ie .buttons div a {
@@ -421,8 +425,8 @@ li.pagination {
 	padding: 0 3px;
 	margin: 0 2px;
 	font-weight: normal;
-	border: solid 1px #335167;
-    background-color: #335167;
+	border: solid 1px #143751;
+    background-color: #154356;
     color: #fff;
     border-radius: 5px;
     -moz-border-radius: 5px;

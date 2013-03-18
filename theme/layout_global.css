@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 html, body {
-    background: #dfe2e2 url({T_THEME_PATH}/images/bg/paper.png) repeat;
+    background: #e6e6e6 url(./styles/art_air_irmug/theme/images/header_g2.png) top center repeat-y;
 }
 body.simple { 
     width: auto; 
@@ -27,7 +27,7 @@ body.simple {
 }
 
 a, a:visited {
-    color: #335167;
+    color: #154356;
     text-decoration: none;
     transition: color 0.25s ease;
     direction: rtl;

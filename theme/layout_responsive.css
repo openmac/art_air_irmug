@@ -1,17 +1,3 @@
-/* Desktop */
-@media only screen and (min-width: 900px), only screen and (min-device-width: 900px)
-{
-    #header {
-        -webkit-border-bottom-right-radius: 14px;
-        -moz-border-bottom-right-radius: 14px;
-        border-bottom-right-radius: 14px;
-        -webkit-border-bottom-left-radius: 14px;
-        -moz-border-bottom-left-radius: 14px;
-        border-bottom-left-radius: 14px;
-    }
-}
-
-
 /* iPad and iPhone */
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
 {
