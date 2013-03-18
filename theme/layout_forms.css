@@ -18,7 +18,7 @@ input[type="text"], input[type="password"], select, textarea {
     -webkit-border-radius: 6px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
-    padding: 5px 10px 5px 8px;
+    padding: 4px 10px 3px 8px;
     font-size: 14px;
     transition-property: border-color, background-color, color;
     -webkit-transition-property: border-color, background-color, color;
