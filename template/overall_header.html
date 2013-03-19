@@ -147,53 +147,75 @@
 </head>
 
 <body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
-
-<div id="header">
-    <a href="{U_INDEX}" title="{L_INDEX}" id="logo">
-      <img src="{T_IMAGESET_PATH}/logo.svg" alt="" title="">
-    </a>
-    <h1>{SITENAME}</h1>
-    <p>{SITE_DESCRIPTION}</p>
-</div>
-
-<div id="page-header" class="responsive-menu-nojs">
-	<div class="menu-buttons responsive-menu" style="display:none;">
-		<a href="javascript:void(0);"><!-- IF L_MENU --><span>{L_MENU}</span><!-- ELSE --><span class="arrow">&darr;&darr;&darr;</span><!-- ENDIF --></span></a>
+<div style="max-width:900px; text-align:right; height: 34px; margin:0 auto;">
+	<div id="above-header">
+	<a href="http://forum.irmug.com/"><span style="font-weight:bold;">انجمن</span></a>
+	<a href="http://wiki.irmug.com/"><span>ویکی</span></a>
+	<a href="http://wiki.irmug.com/index.php/%D8%B1%D8%AF%D9%87:%D9%82%D9%84%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%81%D8%A7%D8%B1%D8%B3%DB%8C"><span>قلم‌های فارسی</span></a>
+	<a href="http://irmug.com/books/30nokte.pdf"><span>سی نکته</span></a>
+	<a href=""><span>&hellip;</span></a>
+	    <div id="nav-header" class="menu-buttons"> 
+			
+	    </div>
 	</div>
-
-
-<!-- IF not S_IS_BOT --><!-- IF not S_USER_LOGGED_IN and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) --><div id="login-irmug"><a href="{U_LOGIN_LOGOUT}" title="ورود / عضویت" accesskey="x"><span>ورود / عضویت</span></a>
-<a href="http://wiki.irmug.com/"><span>ویکی</span></a> </div> <!-- ENDIF --> <!-- ENDIF -->
-<!-- IF not S_IS_BOT and S_USER_LOGGED_IN --><div id="login-irmug">
-<a href="http://wiki.irmug.com/"><span>ویکی</span></a>
- <a href="{U_PROFILE}" title="{L_PROFILE}" accesskey="e"><span>کنترل پنل</span></a> </div> <!-- ENDIF -->
-    <div id="nav-header" class="menu-buttons"> 
-            <!-- IF U_RESTORE_PERMISSIONS -->
-                <a href="{U_RESTORE_PERMISSIONS}"><span>{L_RESTORE_PERMISSIONS}</span></a> 
-            <!-- ENDIF -->
-        <a href="{U_FAQ}" title="{L_FAQ_EXPLAIN}"><span>{L_FAQ}</span></a> 
-        <!-- IF not S_IS_BOT -->
-            <!-- IF S_DISPLAY_MEMBERLIST --><a href="{U_MEMBERLIST}" title="{L_MEMBERLIST_EXPLAIN}"><span>{L_MEMBERLIST}</span></a> <!-- ENDIF -->
-             	 <!-- IF S_USER_LOGGED_IN --><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x"><span>{L_LOGIN_LOGOUT}</span></a> <!-- ENDIF -->
-        <!-- ENDIF -->
-        <a href="javascript:void(0);" class="responsive-menu-hide" style="display:none;"><span>X</span></a>
-    </div>
-
-    <!-- IF S_DISPLAY_SEARCH -->
-        <div id="search-adv">
-            <a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}"><span>{L_SEARCH_ADV}</span></a>
-        </div>
-    <!-- ENDIF -->
-    <!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
-        <div id="search-box">
-            <form action="{U_SEARCH}" method="get" id="search">
-                <input name="keywords" id="keywords" type="text" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search" value="<!-- IF SEARCH_WORDS-->{SEARCH_WORDS}<!-- ELSE -->{L_SEARCH_MINI}<!-- ENDIF -->" />
-                {S_SEARCH_HIDDEN_FIELDS}
-            </form>
-        </div>
-    <!-- ENDIF -->
+	<div id="login-logout">
+	<!-- IF not S_IS_BOT -->
+	<!-- IF not S_USER_LOGGED_IN and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) -->
+	<a href="{U_LOGIN_LOGOUT}" title="ورود / عضویت" accesskey="x"><span>ورود / عضویت</span></a>
+	<!-- ENDIF --> <!-- ENDIF -->
+	<!-- IF not S_IS_BOT --><!-- IF S_USER_LOGGED_IN -->
+    <a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x"><span>{L_LOGIN_LOGOUT}</span></a> 
+    <!-- ENDIF --><!-- ENDIF -->
+	</div>
 </div>
-
+<div id="header">
+	<div style="max-width:900px; margin: 0 auto;">	
+	<p style="margin-top: 27px; display:inline-block;float: left;text-align: left;color: white;font-size: 11px; margin-left: 15px;">
+	<br />
+	<!-- IF U_MCP -->{CURRENT_TIME} <br /><!-- ELSEIF S_USER_LOGGED_IN -->{CURRENT_TIME}<!-- ENDIF -->
+	<!-- IF S_USER_LOGGED_IN --><!-- ENDIF --><!-- IF S_USER_LOGGED_IN -->{LAST_VISIT_DATE}<!-- ELSE -->{CURRENT_TIME}<!-- ENDIF --><br />
+	</p>
+	    <a href="{U_INDEX}" title="{L_INDEX}" id="logo">
+	      <img src="{T_IMAGESET_PATH}/logo.svg" alt="" title="">
+	    </a>
+	    <h1>{SITENAME}</h1>
+	    <p>{SITE_DESCRIPTION}</p>
+	</div>
+</div>
+<div style="background-color:#0179aa; height: 34px;">
+	<div id="page-header" class="responsive-menu-nojs">
+		<div class="menu-buttons responsive-menu" style="display:none;">
+			<a href="javascript:void(0);"><!-- IF L_MENU --><span>{L_MENU}</span><!-- ELSE --><span class="arrow">&hellip;</span><!-- ENDIF --></span></a>
+		</div>
+	<!-- IF not S_IS_BOT and S_USER_LOGGED_IN --><div id="persistent">
+	 <a href="{U_PROFILE}" title="{L_PROFILE}" accesskey="e"><span>پنل کاربری</span></a> </div> <!-- ENDIF -->
+	    <div id="nav-header" class="menu-buttons"> 
+	            <!-- IF U_RESTORE_PERMISSIONS -->
+	                <a href="{U_RESTORE_PERMISSIONS}"><span>{L_RESTORE_PERMISSIONS}</span></a> 
+	            <!-- ENDIF -->
+	        <a href="{U_FAQ}" title="{L_FAQ_EXPLAIN}"><span>{L_FAQ}</span></a> 
+	        <!-- IF not S_IS_BOT -->
+	            <!-- IF S_DISPLAY_MEMBERLIST --><a href="{U_MEMBERLIST}" title="{L_MEMBERLIST_EXPLAIN}"><span>{L_MEMBERLIST}</span></a> <!-- ENDIF -->
+	        <!-- ENDIF -->
+	        <a href="http://forum.irmug.com/ucp.php?mode=terms" title="قوانین"><span>قوانین</span></a>
+	        <a href="javascript:void(0);" class="responsive-menu-hide" style="display:none;"><span>X</span></a>
+	    </div>
+	
+	    <!-- IF S_DISPLAY_SEARCH -->
+	        <div id="search-adv">
+	            <a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}"><span>{L_SEARCH_ADV}</span></a>
+	        </div>
+	    <!-- ENDIF -->
+	    <!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
+	        <div id="search-box">
+	            <form action="{U_SEARCH}" method="get" id="search">
+	                <input name="keywords" id="keywords" type="text" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search" value="<!-- IF SEARCH_WORDS-->{SEARCH_WORDS}<!-- ELSE -->{L_SEARCH_MINI}<!-- ENDIF -->" />
+	                {S_SEARCH_HIDDEN_FIELDS}
+	            </form>
+	        </div>
+	    <!-- ENDIF -->
+	</div>
+</div>
 <div id="page-body">
 
     <div class="nav-extra">

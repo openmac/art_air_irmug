@@ -26,10 +26,7 @@
 		max-width: 320px;
 		position: absolute;
 		top: 30px;
-		background: rgba(240, 240, 240, 0.9);
-		border: 1px solid #c8c8c8;
-		border-radius: 10px;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1), 2px 2px 5px rgba(0, 0, 0, 0.1);
+		background: #0179aa;
 	}
 	#nav-header a {
 		float: none;
@@ -47,7 +44,7 @@
 	.menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited {
 		float:left;
 		}
-	#login-irmug a, #login-irmug a:visited, {
+	#persistent a, #persistent a:visited, {
 		float:right;
 	}	
 		
