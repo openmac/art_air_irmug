@@ -177,8 +177,13 @@ fieldset.quick-login input {
 	width: auto;
 }
 
+fieldset.quick-login span {
+  display: inline;
+  padding-right: 5px;
+}
+
 fieldset.quick-login input.inputbox {
-	width: 110px;
+	width: 150px;
 	vertical-align: middle;
 	margin-right: 5px;
 }

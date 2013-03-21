@@ -258,7 +258,11 @@
 	}
 	ul.topiclist dd { display: none; }
 	ul.topiclist dd.mark { display: block; }
-}
+	fieldset.quick-login span { 
+		display: block;
+		padding-top: 7px;
+	}
+	fieldset.quick-login span.separator { display: none; }
 
 @media only screen and (device-width: 768px)
 {
