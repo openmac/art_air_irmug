@@ -108,7 +108,7 @@ div.cp-panel {
 p.linkmcp { color: #444; }
 
 #cp-main > h2, #cp-main > form > h2 {
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-weight: normal;
 	margin: 8px 0;
 	padding: 0;
@@ -199,7 +199,7 @@ dl.mini dt {
 	color: #444;
 	font-size: 14px;
 	line-height: 1.3em;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 
 dl.mini dd {
@@ -370,7 +370,7 @@ dl.faq {
 
 dl.faq dt {
 	font-weight: normal;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-size: 14px;
 	color: #da2220;
 	line-height: 1.4em;
@@ -416,7 +416,7 @@ table.table1 th {
     color: rgba(255, 255, 255, 0.9);
 	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
     font-size: 12px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1.2em;
     padding: 3px 4px;
 }
@@ -517,7 +517,7 @@ div.dropdown-tabs > a {
     display: inline-block;
     direction: ltr;
     font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     white-space: nowrap;
     margin: 0;

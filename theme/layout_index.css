@@ -64,7 +64,7 @@ ul.topiclist li.header {
     -webkit-border-radius: 5px;
     color: rgba(255, 255, 255, 0.9);
 	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     font-weight: bold;
 }
 ul.topiclist li.header a, ul.topiclist li.header a:visited { 
@@ -222,7 +222,7 @@ a.forumtitle, a.topictitle {
     font-size: 15px;
     font-weight: bold;
     line-height: 1.28em;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 .unread a.forumtitle, .unread a.forumtitle:visited, 
 .unread a.topictitle, .unread a.topictitle:visited, 
@@ -346,7 +346,7 @@ div[class].topic-actions {
 }
 .buttons div a {
     font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     white-space: nowrap;
     display: inline-block;
@@ -487,7 +487,7 @@ li.pagination {
 body.section-index #page-body > form > h3 { display: none; }
 
 a.topicjadid {
-	font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+	font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 }

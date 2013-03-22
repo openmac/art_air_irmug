@@ -149,7 +149,7 @@
 <body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
 <div style="max-width:900px; text-align:right; height: 34px; margin:0 auto;">
 	<div id="above-header">
-	<a href="http://forum.irmug.com/"><span style="font-weight:bold;">انجمن</span></a>
+	<a href="{U_INDEX}"><span style="font-weight:bold;">انجمن</span></a>
 	<a href="http://wiki.irmug.com/"><span>ویکی</span></a>
 	<a href="http://wiki.irmug.com/index.php/%D8%B1%D8%AF%D9%87:%D9%82%D9%84%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%81%D8%A7%D8%B1%D8%B3%DB%8C"><span>قلم‌های فارسی</span></a>
 	<a href="http://irmug.com/books/30nokte.pdf"><span>سی نکته</span></a>
@@ -219,7 +219,7 @@
 <div id="page-body">
 
     <div class="nav-links">
-        <a href="{U_INDEX}" accesskey="h"><span>{L_INDEX}</span></a> 
+        <!-- IF not S_INDEX_PAGE--><a href="{U_INDEX}" accesskey="h"><span>{L_INDEX}</span></a><!-- ENDIF -->
         <!-- BEGIN navlinks --><a href="{navlinks.U_VIEW_FORUM}"><span>{navlinks.FORUM_NAME}</span></a><!-- END navlinks -->
     </div>
     

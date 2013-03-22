@@ -67,6 +67,7 @@
 }
 #header a img {
 	display: inline-block;
+	direction: ltr;
     margin: 0 15px 0 0;
     padding: 0;
     opacity: 1 !important;
@@ -81,7 +82,7 @@
     white-space: nowrap;
     font-weight: normal;
     line-height: 1.4em;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     text-shadow: rgba(0, 0, 0, 0.1) 1px 2px 1px;
 }
 
@@ -148,7 +149,7 @@
     padding: 12px 10px 0 0;
     height: 21px;
     font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     direction:rtl;
 }
 
@@ -219,7 +220,7 @@
     width: 115px;
     line-height: 1em;
     font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     color: #154356;
     outline-style: none;
     -webkit-appearance: none;
@@ -247,7 +248,7 @@
     font-size: 11px;
     color: rgba(255, 255, 255, 0.8);
     text-shadow: none;
-    background: #eeeeee repeat-x;
+    background: #154356 none repeat-x;
     background-image: linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
 	background-image: -o-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
 	background-image: -moz-linear-gradient(bottom, rgb(21,66,86) 0%, rgb(28,88,110) 96%, rgb(21,66,86) 0%);
@@ -290,7 +291,7 @@
     text-align: center;
     font-weight: normal;
     font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 #footer .copyright a, #footer .copyright a:visited {
     color: #aaa;
@@ -364,7 +365,7 @@ body.simple #page-body > h2.solo {
     padding-right: 15px;
     height: 22px;
     font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     white-space: nowrap;
     max-width: 200px;
@@ -423,7 +424,7 @@ div.rules .inner {
     -moz-border-radius: 8px;
     -moz-webkit-radius: 8px;
     color: #154356;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     font-size: 15px;
     font-weight: bold;
     line-height: 1.4em;

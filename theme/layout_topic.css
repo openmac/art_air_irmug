@@ -44,7 +44,7 @@
 	line-height: 125%;
 	font-weight: bold;
 	font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 .postbody h3, .postbody h3 a, .postbody h3 a:visited { color: #154356; }
 .postbody h3 a:hover { color: #da2220; }
@@ -70,7 +70,7 @@
 }
 
 .content h2, .panel h2, .panel > div > h3, .panel .content > h3 {
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-weight: normal;
 	margin: 4px 0;
 	padding: 0;
@@ -253,7 +253,7 @@ dd .signature {
 .postprofile dt {
     font-size: 14px;
     line-height: 1.4em;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 
 .postprofile strong {
@@ -328,7 +328,7 @@ fieldset.polls dd input {
 
 fieldset.polls dd div {
 	text-align: right;
-	font-family: "XB Zar", "XW Zar", "Geeza Pro", "Trebuchet MS", Helvetica, Arial, Sans-serif;
+	font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	color: rgba(255, 255, 255, 0.9);
 	font-weight: normal;
 	padding: 2px 3px;
