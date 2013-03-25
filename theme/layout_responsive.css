@@ -247,6 +247,7 @@
 		line-height: 1.5em;
 	}
 	.search .postbody { width: 97%; }
+	.searchresult-author { display: block; }
 }
 
 /* iPhone */
