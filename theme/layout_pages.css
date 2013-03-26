@@ -486,6 +486,9 @@ ul.searchresults {
     width: 68%;
     clear: left;
 }
+.searchresult-author {
+    display: none;
+}
 
 /* Close popup */
 body.simple #page-body > a { 
