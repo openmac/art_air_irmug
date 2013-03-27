@@ -65,14 +65,13 @@
     text-decoration: none;
     border-width: 0;
 }
-#header a img {
+#logo img {
 	display: inline-block;
 	direction: ltr;
-    margin: 0 15px 0 0;
+    margin: 7px 15px 6px 15px;
     padding: 0;
     opacity: 1 !important;
-    max-width: 70%;
-    width: 255px;
+    max-width: 90%;
 }
 
 #header p, #header h1 {
