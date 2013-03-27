@@ -41,6 +41,10 @@
 	</form>
 <!-- ENDIF -->
 
+<div id="index-statistics">
+	<input class="button2" type="button" value="نمایش اطلاعات انجمن" onclick="$('#index-statistics-container').toggle()">
+	<br><br>
+	<div id="index-statistics-container">
 <!-- IF S_DISPLAY_ONLINE_LIST -->
 	<!-- IF U_VIEWONLINE --><h3><a href="{U_VIEWONLINE}">{L_WHO_IS_ONLINE}</a></h3><!-- ELSE --><h3>{L_WHO_IS_ONLINE}</h3><!-- ENDIF -->
 	<p>{TOTAL_USERS_ONLINE} ({L_ONLINE_EXPLAIN})<br />{RECORD_USERS}<br /> <br />{LOGGED_IN_USER_LIST}
@@ -56,5 +60,7 @@
 	<h3>{L_STATISTICS}</h3>
 	<p>{TOTAL_POSTS} &bull; {TOTAL_TOPICS} &bull; {TOTAL_USERS} &bull; {NEWEST_USER}</p>
 <!-- ENDIF -->
+</div>
+</div>
 
 <!-- INCLUDE overall_footer.html -->
