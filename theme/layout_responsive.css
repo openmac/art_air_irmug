@@ -275,6 +275,7 @@
 		padding-top: 7px;
 	}
 	fieldset.quick-login span.separator { display: none; }
+	p#last-visit-box { display: none !important; }
 
 @media only screen and (device-width: 768px)
 {
