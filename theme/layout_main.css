@@ -65,14 +65,13 @@
     text-decoration: none;
     border-width: 0;
 }
-#header a img {
+#logo img {
 	display: inline-block;
 	direction: ltr;
-    margin: 0 15px 0 0;
+    margin: 7px 15px 6px 15px;
     padding: 0;
     opacity: 1 !important;
-    max-width: 70%;
-    width: 255px;
+    max-width: 90%;
 }
 
 #header p, #header h1 {
@@ -194,7 +193,7 @@
     height: 27px;
     background: url({T_THEME_PATH}/images/header_search.png) 0 0 no-repeat;
     background-size: 155px 70px;
-    margin: 0 0px 5px;
+    margin: 2px 0px 5px;
     padding: 3px 0 0 26px;
     direction: rtl;
 }
@@ -308,12 +307,14 @@ body.simple .copyright {
 }
 
 .copyright .copy-left {
+    margin-left: 10px;
     float: left;
     text-align: left;
 }
 .copyright .copy-right {
     float: right;
     text-align: right;
+    margin-right: 10px;
 }
 
 /*

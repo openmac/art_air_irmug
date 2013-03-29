@@ -251,7 +251,7 @@
 	}
 	
 	/* misc */
-	#page-body > h2, #page-body > form > h2, #page-body > h3, #page-body > form > h3, div#message h2, #confirm h2, #agreement h2, #page-body h2.title a, #page-body h2.title a:visited {
+	#page-body > h2, #page-body > form > h2, #page-body h3, #page-body > form > h3, div#message h2, #confirm h2, #agreement h2, #page-body h2.title a, #page-body h2.title a:visited {
 		clear: both;
 		float: none;
 		line-height: 1.5em;
@@ -275,6 +275,17 @@
 		padding-top: 7px;
 	}
 	fieldset.quick-login span.separator { display: none; }
+	.copyright .copy-left {
+    text-align: center;
+    float: inherit;
+    margin-left: 0;
+	}
+	.copyright .copy-right {
+		float: inherit;
+    text-align: center;
+    margin-right: 0;
+	}
+	p#last-visit-box { display: none !important; }
 
 @media only screen and (device-width: 768px)
 {
