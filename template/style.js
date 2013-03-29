@@ -183,10 +183,8 @@ $(document).ready(function() {
     // header search box
     $('#search-box form').submit(function() { var value = $('#search-box input:text').val(); return (value == laSearchMini || value == '') ? false : true; });
     $('#search-box input:text').focus(function() { 
-        if(this.value == laSearchMini) this.value = '';
         $('#search-box').addClass('focused');
     }).blur(function() { 
-        if(this.value == '') this.value = laSearchMini;
         $('#search-box').removeClass('focused');
     });
     
