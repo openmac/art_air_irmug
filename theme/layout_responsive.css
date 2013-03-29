@@ -275,6 +275,16 @@
 		padding-top: 7px;
 	}
 	fieldset.quick-login span.separator { display: none; }
+	.copyright .copy-left {
+    text-align: center;
+    float: inherit;
+    margin-left: 0;
+	}
+	.copyright .copy-right {
+		float: inherit;
+    text-align: center;
+    margin-right: 0;
+	}
 
 @media only screen and (device-width: 768px)
 {

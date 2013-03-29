@@ -308,12 +308,14 @@ body.simple .copyright {
 }
 
 .copyright .copy-left {
+    margin-left: 10px;
     float: left;
     text-align: left;
 }
 .copyright .copy-right {
     float: right;
     text-align: right;
+    margin-right: 10px;
 }
 
 /*
