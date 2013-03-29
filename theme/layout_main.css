@@ -193,7 +193,7 @@
     height: 27px;
     background: url({T_THEME_PATH}/images/header_search.png) 0 0 no-repeat;
     background-size: 155px 70px;
-    margin: 0 0px 5px;
+    margin: 2px 0px 5px;
     padding: 3px 0 0 26px;
     direction: rtl;
 }
