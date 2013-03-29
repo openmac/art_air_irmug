@@ -167,13 +167,14 @@
 </div>
 <div id="header">
 	<div style="max-width:900px; margin: 0 auto;">	
-	<p style="margin-top: 27px; display:inline-block;float: left;text-align: left;color: white;font-size: 11px; margin-left: 15px;">
+	<p id="last-visit-box" style="margin-top: 27px; display:inline-block;float: left;text-align: left;color: white;font-size: 11px; margin-left: 15px;">
 	<br />
-	<!-- IF U_MCP -->{CURRENT_TIME} <br /><!-- ELSEIF S_USER_LOGGED_IN -->{CURRENT_TIME}<!-- ENDIF -->
+	<!-- IF U_MCP -->{CURRENT_TIME}<!-- ELSEIF S_USER_LOGGED_IN -->{CURRENT_TIME}<!-- ENDIF -->
+  <br />
 	<!-- IF S_USER_LOGGED_IN --><!-- ENDIF --><!-- IF S_USER_LOGGED_IN -->{LAST_VISIT_DATE}<!-- ELSE -->{CURRENT_TIME}<!-- ENDIF --><br />
 	</p>
 	    <a href="{U_INDEX}" title="{L_INDEX}" id="logo">
-	      <img src="{T_IMAGESET_PATH}/logo.svg" alt="IRMUG" width="304px" height="83px">
+	      <img src="{T_IMAGESET_PATH}/logo.svg" alt="IRMUG" width="304px" height="99px">
 	    </a>
 	    <h1>{SITENAME}</h1>
 	    <p>{SITE_DESCRIPTION}</p>

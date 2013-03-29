@@ -285,6 +285,7 @@
     text-align: center;
     margin-right: 0;
 	}
+	p#last-visit-box { display: none !important; }
 
 @media only screen and (device-width: 768px)
 {
