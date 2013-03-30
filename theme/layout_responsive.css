@@ -286,6 +286,10 @@
     margin-right: 0;
 	}
 	p#last-visit-box { display: none !important; }
+	input[type="text"]:focus, input[type="password"],
+	textarea:focus, select:focus {
+	  font-size: 16px;
+	}
 
 @media only screen and (device-width: 768px)
 {
