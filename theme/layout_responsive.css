@@ -271,12 +271,14 @@
 		margin: 2px 15px 2px 15px;
 		width: 220px;
 		height: 72px;
-		height:auto;
 	}
 	#abovebar, #belowbar {
 		height:30px;
 	}
-	#search-adv a span, #persistent a span, #above-header a span {
+	#search-adv a span, #persistent a span {
+		padding: 8px 10px 0 0;
+	}
+	#above-header a span {
 		padding: 10px 10px 0 0;
 	}
 	
