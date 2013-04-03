@@ -241,10 +241,11 @@ fieldset.jumpbox {
 	text-align: right;
 	margin-top: 15px;
 	height: 2.5em;
+	width:100%;
 }
 
 fieldset.quickmod {
-	width: 50%;
+	width: 100%;
 	float: right;
 	text-align: right;
 	height: 2.5em;

@@ -171,7 +171,7 @@
 	}
 	
 	/* forms */
-	select { max-width: 220px; }
+	select { max-width: 190px; }
 	dd label { white-space: normal; }
 	
 	fieldset.fields2 dt, fieldset.fields2 dd, fieldset dt, fieldset dd, fieldset.fields1 dt, fieldset.fields1 dd {
