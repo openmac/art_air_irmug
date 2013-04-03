@@ -275,7 +275,7 @@
 	#abovebar, #belowbar {
 		height:30px;
 	}
-	#search-adv a span, #persistent a span {
+	.menu-buttons a span, #search-adv a span, #persistent a span {
 		padding: 8px 10px 0 0;
 	}
 	#above-header a span {
