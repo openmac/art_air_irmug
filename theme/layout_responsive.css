@@ -273,6 +273,22 @@
 		height: 72px;
 		height:auto;
 	}
+	.nav-links {
+		padding: 5px 0px 0px 0px;
+	}
+	.nav-links a {
+		padding-right: 0px;
+		margin-right: 4px;
+	}
+	.nav-links a span {
+		padding-left:10px;
+	}
+	.nav-links a:first-child span {
+	background-image: url({T_THEME_PATH}/images/menu2.png);
+	padding-right: 5px;
+	}
+	
+	
 	/* forums/topics lists */
 	ul.topiclist dt { 
 		float: none;
