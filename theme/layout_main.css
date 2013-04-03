@@ -71,6 +71,8 @@
     margin: 7px 15px 6px 15px;
     padding: 0;
     opacity: 1 !important;
+    width: 304px;
+    height: 99px;
     max-width: 90%;
 }
 
@@ -127,7 +129,7 @@
 .menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited, #persistent a, #persistent a:visited, #login-logout a, #login-logout a:visited, #above-header a, #above-header a:visited {
     display: block;
     float: right;
-    margin: 0px 14px 5px 4px;
+    margin: 0px 14px 5px 0px;
     padding: 0;
     padding-left: 10px;
     line-height: 1em;
@@ -163,6 +165,9 @@
 
 #login-logout a, #login-logout a:visited {
 	color: #0179ab;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: -6px;
 }
 
 .menu-buttons a:hover span, .menu-buttons a.new span, #search-adv a:hover span, #persistent a:hover span, #above-header a:hover span, #login-logout a:hover span {
@@ -183,6 +188,7 @@
 
 #login-logout {
 	float:left;
+	margin: 5px 0 0 15px;
 }
 
 #search-box {

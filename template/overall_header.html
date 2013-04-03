@@ -151,10 +151,9 @@
 	<a href="{U_INDEX}"><span style="font-weight:bold;">انجمن</span></a>
 	<a href="http://wiki.irmug.com/"><span>ویکی</span></a>
 	<a href="http://wiki.irmug.com/index.php/%D8%B1%D8%AF%D9%87:%D9%82%D9%84%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%81%D8%A7%D8%B1%D8%B3%DB%8C"><span>قلم‌های فارسی</span></a>
-	<a href="http://irmug.com/books/30nokte.pdf"><span>سی نکته</span></a>
-	<a href=""><span>&hellip;</span></a>
+	
 	    <div id="nav-header" class="menu-buttons"> 
-			
+			<a href="http://irmug.com/books/30nokte.pdf"><span>سی نکته</span></a>
 	    </div>
 	</div>
 	<div id="login-logout">
@@ -162,9 +161,9 @@
 	<!-- IF not S_USER_LOGGED_IN and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) -->
 	<a href="{U_LOGIN_LOGOUT}" title="ورود / عضویت" accesskey="x"><span>ورود / عضویت</span></a>
 	<!-- ENDIF --> <!-- ENDIF -->
-	<!-- IF not S_IS_BOT --><!-- IF S_USER_LOGGED_IN -->
-    <a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x"><span>{L_LOGIN_LOGOUT}</span></a> 
-    <!-- ENDIF --><!-- ENDIF -->
+	<!-- IF S_USER_LOGGED_IN --><!-- IF U_GLOBAL_AVATAR -->{U_GLOBAL_AVATAR}<!-- ELSE --><img src="{T_IMAGESET_PATH}/noavatar.png" width="22" height="21" border="0" alt="کاربر بدون نماد" /><!-- ENDIF -->&nbsp;<a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x"><span>خروج</span></a><!-- ENDIF --></a>
+           
+
 	</div>
 </div>
 <div id="header">

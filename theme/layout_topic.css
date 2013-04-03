@@ -116,7 +116,6 @@ ul.profile-icons li a {
 	display: block;
 	width: 100%;
 	height: 100%;
-	background-color: #f1f1f1;
 	background-position: 0 0;
 	opacity: 1;
     transition: opacity 0.25s ease;

@@ -263,6 +263,16 @@
 /* iPhone */
 @media only screen and (max-width: 500px), only screen and (max-device-width: 500px)
 {
+	/* header */
+	#header {
+	padding: 0;
+	}
+	#logo img {
+		margin: 2px 15px 2px 15px;
+		width: 220px;
+		height: 72px;
+		height:auto;
+	}
 	/* forums/topics lists */
 	ul.topiclist dt { 
 		float: none;
@@ -290,6 +300,7 @@
 	textarea:focus, select:focus {
 	  font-size: 16px;
 	}
+}
 
 @media only screen and (device-width: 768px)
 {
