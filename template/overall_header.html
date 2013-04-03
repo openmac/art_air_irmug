@@ -146,7 +146,7 @@
 </head>
 
 <body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
-<div style="max-width:900px; text-align:right; height: 34px; margin:0 auto;">
+<div id="abovebar">
 	<div id="above-header">
 	<a href="{U_INDEX}"><span style="font-weight:bold;">انجمن</span></a>
 	<a href="http://wiki.irmug.com/"><span>ویکی</span></a>
@@ -175,13 +175,13 @@
 	<!-- IF S_USER_LOGGED_IN --><!-- ENDIF --><!-- IF S_USER_LOGGED_IN -->{LAST_VISIT_DATE}<!-- ELSE -->{CURRENT_TIME}<!-- ENDIF --><br />
 	</p>
 	    <a href="{U_INDEX}" title="{L_INDEX}" id="logo">
-	      <img src="{T_IMAGESET_PATH}/logo.svg" alt="IRMUG" width="304px" height="99px">
+	      <img src="{T_IMAGESET_PATH}/logo.svg" alt="IRMUG">
 	    </a>
 	    <h1>{SITENAME}</h1>
 	    <p>{SITE_DESCRIPTION}</p>
 	</div>
 </div>
-<div style="background-color:#0179aa; height: 34px;">
+<div id="belowbar">
 	<div id="page-header" class="responsive-menu-nojs">
 		<div class="menu-buttons responsive-menu" style="display:none;">
 			<a href="javascript:void(0);"><!-- IF L_MENU --><span>{L_MENU}</span><!-- ELSE --><span class="arrow">&hellip;</span><!-- ENDIF --></span></a>

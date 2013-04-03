@@ -273,6 +273,13 @@
 		height: 72px;
 		height:auto;
 	}
+	#abovebar, #belowbar {
+		height:30px;
+	}
+	#search-adv a span, #persistent a span, #above-header a span {
+		padding: 10px 10px 0 0;
+	}
+	
 	.nav-links {
 		padding: 5px 0px 0px 0px;
 	}
