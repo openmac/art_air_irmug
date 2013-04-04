@@ -114,9 +114,9 @@ ul.profile-icons li {
 /* Rolloff state */
 ul.profile-icons li a {
 	display: block;
+	color: #666666;
 	width: 100%;
 	height: 100%;
-	background-position: 0 0;
 	opacity: 1;
     transition: opacity 0.25s ease;
     -webkit-transition: opacity 0.25s ease;
@@ -130,15 +130,16 @@ ul.profile-icons li span {
     display: none; 
 }
 ul.profile-icons li a:hover { 
-    opacity: 0;
+	color: #da2220;
+    opacity: 1;
 }
 
 /* Positioning of moderator icons */
 .postbody ul.profile-icons {
 	float: left;
 	width: auto;
-	padding: 0;
-	padding-bottom: 5px;
+	padding: 0 0 5px 0;
+	font-size:96%;
 }
 
 .postbody ul.profile-icons li {

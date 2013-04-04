@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot');
-	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.woff') format('woff'),
-		url('fonts/icomoon.ttf') format('truetype'),
-		url('fonts/icomoon.svg#icomoon') format('svg');
+	src:url('{T_THEME_PATH}/fonts/icomoon.eot');
+	src:url('{T_THEME_PATH}/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('{T_THEME_PATH}/fonts/icomoon.woff') format('woff'),
+		url('{T_THEME_PATH}/fonts/icomoon.ttf') format('truetype'),
+		url('{T_THEME_PATH}/fonts/icomoon.svg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -401,6 +401,7 @@ fieldset.display-options {
 	font-weight: normal;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
+	font-size: 1.8em;
 }
 
 
