@@ -242,6 +242,7 @@ a.top {
 	overflow: hidden;
 	letter-spacing: 1000px;
 	text-indent: 11px;
+	background-size: 11px 11px;
 }
 
 a.top2 {
