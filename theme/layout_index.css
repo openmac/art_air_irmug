@@ -144,10 +144,12 @@ ul.topiclist li.row dt a.subforum {
 
 ul.topiclist li.row dt a.subforum.read {
 	background-image: url("{IMG_SUBFORUM_READ_SRC}");
+	background-size: 11px 9px;
 }
 
 ul.topiclist li.row dt a.subforum.unread {
 	background-image: url("{IMG_SUBFORUM_UNREAD_SRC}");
+	background-size: 11px 9px;
 }
 
 .forum-image {
