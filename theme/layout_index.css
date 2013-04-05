@@ -354,13 +354,24 @@ div[class].topic-actions {
     white-space: nowrap;
     display: inline-block;
     position: relative;
-    margin: 0 0 0 15px;
-    padding: 8px 16px 0 2px;
-    height: 22px;
+    margin: 0 0 0 1px;
+    padding: 7px 16px 0 16px;
+    height: 20px;
     text-decoration: none;
     text-align: center;
     color: #154356;
-    background: url({T_THEME_PATH}/images/buttons.png) top right no-repeat;
+    background: #ededed;
+    background-image: linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+    background-image: -o-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+    background-image: -moz-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+    background-image: -webkit-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+    background-image: -ms-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+    border: solid 1px white;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    box-shadow: 0px 0px 0px 1pt #d3d3d3;
+    -webkit-box-shadow: 0px 0px 0px 1pt #d3d3d3;
 }
 .browser-ie .buttons div a {
     line-height: 21.49px;
@@ -370,11 +381,12 @@ div[class].topic-actions {
 
 .buttons div a, .buttons div a:hover, .buttons div a:active {
     text-decoration: none;
-    border-width: 0;
     outline-style: none;
 }
 .buttons div a:hover, .buttons div a:active { 
-    color: #da2220; 
+    color: #da2220;
+    box-shadow: 0px 0px 0px 1pt #e29b9a;
+    -webkit-box-shadow: 0px 0px 0px 1pt #e29b9a;
 }
 .buttons div a span {
     display: block;
@@ -383,20 +395,6 @@ div[class].topic-actions {
     bottom: 0;
     left: -15px;
     width: 15px;
-    background: url({T_THEME_PATH}/images/buttons.png) top left no-repeat;
-}
-
-.buttons div a:hover {
-    background-position: right -40px;
-}
-.buttons div a:active {
-    background-position: right bottom;
-}
-.buttons div a:hover span {
-    background-position: left -40px;
-}
-.buttons div a:active span {
-    background-position: left bottom;
 }
 
 
