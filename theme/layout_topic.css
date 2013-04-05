@@ -14,7 +14,7 @@
     padding: 6px;
 }
 
-.online .inner { background: url("{IMG_ICON_USER_ONLINE_SRC}") 100% 0 no-repeat; }
+.online .inner { background: url("{IMG_ICON_USER_ONLINE_SRC}") 100% 0 no-repeat; background-size: 9px 9px; }
 
 
 .postbody {
