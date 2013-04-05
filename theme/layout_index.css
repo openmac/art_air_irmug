@@ -98,6 +98,7 @@ ul.topiclist li.row {
 }
 ul.topiclist li.row dl.icon {
     margin-right: -14px;
+    background-size: 25px 25px;
 }
 
 ul.topiclist dt {
