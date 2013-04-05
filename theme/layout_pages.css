@@ -536,7 +536,7 @@ div.dropdown-tabs > ul {
     display: none;
     position: absolute;
     top: 26px;
-    left: 4px;
+    right: -15px;
     z-index: 2;
     background: #ececec;
     background-color: rgba(236, 236, 236, 0.9);
