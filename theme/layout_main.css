@@ -355,7 +355,7 @@ body.simple #page-body > h2.solo {
     Navigation
 */
 .nav-links {
-    clear: right;
+    clear: left;
     height: 36px;
     margin: 0;
     padding: 5px 10px 0px 10px;
