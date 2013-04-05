@@ -297,7 +297,7 @@
 	}
 	.nav-links a:first-child span {
 	background-image: url({T_THEME_PATH}/images/menu2.png);
-	background-size: 25px 70px;
+	background-size: 15px 70px;
 	padding-right: 5px;
 	}
 	
