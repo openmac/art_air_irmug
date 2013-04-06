@@ -168,7 +168,7 @@
 </div>
 <div id="header">
 	<div style="max-width:900px; margin: 0 auto;">	
-	<p id="last-visit-box" style="margin-top: 27px; display:inline-block;float: left;text-align: left;color: white;font-size: 11px; margin-left: 15px;">
+	<p id="last-visit-box" style="margin-top: 27px; display:inline-block;float: left;text-align: left;color: white;font-size: 11px;">
 	<br />
 	<!-- IF U_MCP -->[&nbsp;<a href="{U_MCP}" style="font-size: 11px; color: white;">{L_MCP}</a>&nbsp;]<br />{CURRENT_TIME}<!-- ELSEIF S_USER_LOGGED_IN -->{CURRENT_TIME}<!-- ENDIF -->
   <br />
@@ -201,7 +201,7 @@
 	    </div>
 	    
 	    <!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
-	        <div class="search-box headerbox" style="float:left;">
+	        <div class="search-box headerbox">
 	            <form action="{U_SEARCH}" method="get" id="search">
 	                <input name="keywords" id="keywords" type="text" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search tiny headerbox" placeholder="<!-- IF SEARCH_WORDS-->{SEARCH_WORDS}<!-- ELSE -->{L_SEARCH_MINI}<!-- ENDIF -->" />
 	                {S_SEARCH_HIDDEN_FIELDS}
@@ -218,10 +218,10 @@
 </div>
 <div id="page-body">
 
-    <div class="nav-links">
-        <!-- IF not S_INDEX_PAGE--><a href="{U_INDEX}" accesskey="h"><span>{L_INDEX}</span></a><!-- ENDIF -->
+   <!-- IF not S_INDEX_PAGE--> <div class="nav-links">
+        <a href="{U_INDEX}" accesskey="h"><span>{L_INDEX}</span></a>
         <!-- BEGIN navlinks --><a href="{navlinks.U_VIEW_FORUM}"><span>{navlinks.FORUM_NAME}</span></a><!-- END navlinks -->
-    </div>
+    </div><!-- ENDIF -->
     
     <!-- IF S_USER_LOGGED_IN and S_DISPLAY_PM and S_USER_NEW_PRIVMSG -->
     <div id="newpm" class="rules">

@@ -94,7 +94,7 @@ ul.topiclist li.row dl {
 }
 
 ul.topiclist li.row {
-    margin-right: 8px;
+    margin-right: 12px;
 }
 ul.topiclist li.row dl.icon {
     margin-right: -14px;
@@ -437,7 +437,7 @@ li.pagination {
 .pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
 	font-weight: normal;
 	text-decoration: none;
-	margin: 0 2px;
+	margin: 0 2px 0 0;
 	padding: 0 3px;
     border: solid 1px #d0d0d0;
     border-radius: 5px;
