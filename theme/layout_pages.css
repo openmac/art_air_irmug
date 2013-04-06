@@ -32,7 +32,7 @@ div#message h2, #confirm h2, #agreement h2 {
 }
 #tabs li, #navigation li, #minitabs li {
     display: block;
-    float: left;
+    float: right;
 }
 #tabs li a, #navigation li a, #minitabs li a {
     display: block;
@@ -40,21 +40,25 @@ div#message h2, #confirm h2, #agreement h2 {
     padding: 0;
     height: 30px;
     padding-left: 15px;
-    background: url({T_THEME_PATH}/images/tabs_right.png) top left no-repeat;
-    border-width: 0;
+	background: #ededed;
+	background-image: linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+	background-image: -o-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+	background-image: -moz-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+	background-image: -webkit-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+	background-image: -ms-linear-gradient(bottom, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 0%);
+	border: solid 1px white;
+	box-shadow: 0px 0px 0px 1pt #d3d3d3;
     outline-style: none;
     text-decoration: none;
 }
 #tabs li a span, #navigation li a span, #minitabs li a span {
     display: inline-block;
     font-size: 14px;
-    font-famiy: Arial;
     line-height: 1em;
     white-space: nowrap;
     padding-top: 8px;
     padding-right: 13px;
     height: 22px;
-    background: url({T_THEME_PATH}/images/tabs_left.png) top right no-repeat;
     color: #154356;
 }
 #tabs li a:hover, #tabs li.activetab a, #navigation li a:hover, #navigation li#active-subsection a, #minitabs li a:hover, #minitabs li.activetab a {
@@ -65,7 +69,10 @@ div#message h2, #confirm h2, #agreement h2 {
     color: #da2220;
 }
 #tabs li.first a, #navigation li.first a, #minitabs li.first a {
-    background-image: url({T_THEME_PATH}/images/tabs_left.png);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px white;
+    box-shadow: 0px 0px 0px 1pt #d3d3d3;
     padding-left: 15px;
 }
 
@@ -73,9 +80,12 @@ div#message h2, #confirm h2, #agreement h2 {
     background-position: top right;
     padding-right: 15px;
     padding-left: 0;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border: solid 1px white;
+    box-shadow: 0px 0px 0px 1pt #d3d3d3;
 }
 #tabs li.last a span, #navigation li.last a span, #minitabs li.last a span {
-    background-image: url({T_THEME_PATH}/images/tabs_right.png);
     background-position: top left;
     padding-left: 10px;
     padding-right: 0;
@@ -103,7 +113,8 @@ li.activetab strong, #active-subsection strong,
 */
 div.cp-panel {
     background: none;
-    padding: 0;
+    padding: 0 165px 0 0;
+    max-width: 80%;
 }
 p.linkmcp { color: #444; }
 
@@ -117,6 +128,10 @@ p.linkmcp { color: #444; }
     font-size: 20px;
     font-weight: normal;
     margin: 14px 2px;
+}
+
+#cp-main h2 {
+	display:none;
 }
 
 #cp-main h3 {
@@ -507,13 +522,9 @@ form#login, form#register {
 #tabs { overflow: visible; }
 div.dropdown-tabs {
     position: relative;
-    float: right;
-    margin: 0;
-    margin-right: 20px;
-    padding: 0;
-    padding-left: 15px;
-    height: 30px;
-    background: url({T_THEME_PATH}/images/tabs_left.png) top left no-repeat;
+    float: none;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 15px;
 }
 div.dropdown-tabs > a {
     display: inline-block;
@@ -533,10 +544,10 @@ div.dropdown-tabs > a {
 div.dropdown-tabs:hover { background-position: bottom left; }
 div.dropdown-tabs:hover > a { background-position: bottom right; color: #da2220; }
 div.dropdown-tabs > ul { 
-    display: none;
+    display: inline;
     position: absolute;
-    top: 26px;
-    right: -15px;
+    top: 37px;
+    right: -20px;
     z-index: 2;
     background: #ececec;
     background-color: rgba(236, 236, 236, 0.9);
@@ -554,7 +565,15 @@ div.dropdown-tabs:hover > ul { display: block; }
     padding: 0;
     line-height: 1em;
     height: auto;
+    border:none;
+    box-shadow:none;
 }
+
+#tabs li#active-subsection a span {
+	color:#da2220;
+}
+
+
 .dropdown-tabs li a, #tabs div.dropdown-tabs ul li a {
     padding: 8px 6px;
 }

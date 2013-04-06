@@ -29,7 +29,7 @@ body {
     position: relative;
 }
 html, body {
-    background: #e6e6e6 url(./styles/art_air_irmug/theme/images/header_g2.png) top center repeat-y;
+    background: #e6e6e6 top center repeat-y;
 }
 body.simple { 
     width: auto; 

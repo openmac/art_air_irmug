@@ -28,7 +28,7 @@
     padding-bottom: 0;
 }
 .old-ie #header .hdr1, .old-ie #footer .hdr1 {
-    background: url({T_THEME_PATH}/images/header_g2.png) top center repeat-y;
+    background: top center repeat-y;
 }
 .old-ie #header .hdr2 {
     background: url({T_THEME_PATH}/images/hdr_b.gif) bottom left repeat-x;

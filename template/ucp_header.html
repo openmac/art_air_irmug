@@ -3,27 +3,23 @@
 <h2>{L_UCP}</h2>
 
 <div id="tabs">
-    <div class="dropdown-tabs">
-        <a href="javascript:void(0);"><!-- BEGIN t_block1 --><!-- IF t_block1.S_SELECTED -->{t_block1.L_TITLE}<!-- ENDIF --><!-- END t_block1 --></a>
+    <div style="float:right;">
         <ul>
             <!-- BEGIN t_block1 -->
-            <li <!-- IF t_block1.S_SELECTED -->class="activetab"<!-- ENDIF -->><a href="{t_block1.U_TITLE}"><span>{t_block1.L_TITLE}</span></a></li>
+            <li <!-- IF t_block1.S_SELECTED and t_block1.S_LAST_ROW -->class="activetab last"<!-- ENDIF --><!-- IF t_block1.S_SELECTED -->class="activetab"<!-- ENDIF --><!-- IF t_block1.S_LAST_ROW -->class="last"<!-- ENDIF -->><a href="{t_block1.U_TITLE}"><span>{t_block1.L_TITLE}</span></a></li>
             <!-- END t_block1 -->
         </ul>
     </div>
     <div class="dropdown-tabs">
-        <a href="javascript:void(0);">
-            <!-- BEGIN t_block2 --><!-- IF t_block2.S_SELECTED -->{t_block2.L_TITLE}<!-- ENDIF --><!-- END t_block2 -->
-            <!-- IF S_PRIVMSGS -->
-                <!-- BEGIN folder --><!-- IF folder.S_CUR_FOLDER -->{folder.FOLDER_NAME}<!-- ENDIF --><!-- END folder -->
-            <!-- ENDIF -->
-        </a>
         <ul>
 		<!-- IF S_PRIVMSGS -->
 			<!-- BEGIN t_block2 -->
+			<!-- IF t_block2.S_LAST_ROW -->
+			<li class="last"><a href="{t_block2.U_TITLE}"><span>{t_block2.L_TITLE}</span></a></li>
+			<!-- ENDIF -->
 				<!-- IF S_PRIVMSGS and not t_block2.S_LAST_ROW -->
 					<!-- IF t_block2.S_SELECTED -->
-						<li id="active-subsection"><a href="{t_block2.U_TITLE}"><span>{t_block2.L_TITLE}</span></a></li>
+						<li class="activetab"><a href="{t_block2.U_TITLE}"><span>{t_block2.L_TITLE}</span></a></li>
 					<!-- ELSE -->
 						<li><a href="{t_block2.U_TITLE}"><span>{t_block2.L_TITLE}</span></a></li>
 					<!-- ENDIF -->
