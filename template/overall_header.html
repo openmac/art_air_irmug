@@ -206,9 +206,9 @@
 	        </div>
 	    <!-- ENDIF -->
 	    <!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
-	        <div id="search-box">
+	        <div class="search-box headerbox" style="float:left;">
 	            <form action="{U_SEARCH}" method="get" id="search">
-	                <input name="keywords" id="keywords" type="text" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search" placeholder="<!-- IF SEARCH_WORDS-->{SEARCH_WORDS}<!-- ELSE -->{L_SEARCH_MINI}<!-- ENDIF -->" />
+	                <input name="keywords" id="keywords" type="text" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search tiny headerbox" placeholder="<!-- IF SEARCH_WORDS-->{SEARCH_WORDS}<!-- ELSE -->{L_SEARCH_MINI}<!-- ENDIF -->" />
 	                {S_SEARCH_HIDDEN_FIELDS}
 	            </form>
 	        </div>

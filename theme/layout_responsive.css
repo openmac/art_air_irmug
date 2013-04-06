@@ -60,6 +60,7 @@
 		padding: 0;
 		margin: 0;
 	}
+	div.headerbox { display:none; }
 
 	/* forums/topics lists */
 	ul.topiclist dt { width: 60%; }

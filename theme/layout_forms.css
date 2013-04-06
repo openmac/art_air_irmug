@@ -17,7 +17,6 @@ input[type="text"], input[type="password"], select, textarea {
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
-    line-height: 1em;
     padding: 4px 10px 3px 8px;
     font-size: 14px;
     transition-property: border-color, background-color, color;
@@ -296,6 +295,8 @@ input.inputbox	{ width: 85%; }
 input.medium	{ width: 50%; }
 input.narrow	{ width: 25%; }
 input.tiny		{ width: 125px; }
+input.headerbox { border-radius:15px; padding: 3px 10px 2px 8px; width:100px; background-position: 8px 7px !important; }
+input.headerbox:focus { width:150px; }
 
 textarea.inputbox {
 	width: 85%;
@@ -388,15 +389,20 @@ input.disabled {
 	direction: rtl;
 }
 
+div.headerbox {
+	margin-top: 3px
+}
+
 .search-box input {
 }
 
 input.search {
 	background-image: url("{T_THEME_PATH}/images/search_mini.png");
 	background-repeat: no-repeat;
-	background-position: 8px 6px;
+	background-position: 8px 8px;
 	padding-left: 25px;
 	padding-right: 12px;
+	background-size: 13px 13px;
 }
 
 .full { width: 95%; }
