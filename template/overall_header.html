@@ -199,12 +199,7 @@
 	        <a href="http://forum.irmug.com/ucp.php?mode=terms" title="قوانین"><span>قوانین</span></a>
 	        <a href="javascript:void(0);" class="responsive-menu-hide" style="display:none;"><span>[بستن منو]</span></a>
 	    </div>
-	
-	    <!-- IF S_DISPLAY_SEARCH -->
-	        <div id="search-adv">
-	            <a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}"><span>{L_SEARCH_ADV}</span></a>
-	        </div>
-	    <!-- ENDIF -->
+	    
 	    <!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
 	        <div class="search-box headerbox" style="float:left;">
 	            <form action="{U_SEARCH}" method="get" id="search">
@@ -213,6 +208,12 @@
 	            </form>
 	        </div>
 	    <!-- ENDIF -->
+	    <!-- IF S_DISPLAY_SEARCH -->
+	    	<div id="search-adv">
+	    		<a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}"><span>{L_SEARCH_ADV}</span></a>
+	    	</div>
+	    <!-- ENDIF -->
+	    
 	</div>
 </div>
 <div id="page-body">
