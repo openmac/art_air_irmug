@@ -43,11 +43,13 @@
 
 	.menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited {
 		float:left;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 20px;
 		}
 
 	.menu-buttons a .arrow {
 		margin-right: 0px;
-		margin-left: 8px;
 	}
 	#persistent a, #persistent a:visited, {
 		float:right;
@@ -61,6 +63,10 @@
 		margin: 0;
 	}
 	div.headerbox { display:none; }
+	
+	.buttons div {
+		margin-left: 0px;
+	}
 
 	/* forums/topics lists */
 	ul.topiclist dt { width: 60%; }
@@ -263,7 +269,6 @@
 	
 	/* misc */
 	#page-body > h2, #page-body > form > h2, #page-body h3, #page-body > form > h3, div#message h2, #confirm h2, #agreement h2, #page-body h2.title a, #page-body h2.title a:visited {
-		clear: both;
 		float: none;
 		line-height: 1.5em;
 	}
@@ -279,7 +284,7 @@
 	padding: 0;
 	}
 	#logo img {
-		margin: 2px 15px 2px 15px;
+		margin: 2px 10px 2px 15px;
 		width: 220px;
 		height: 72px;
 	}
@@ -287,17 +292,17 @@
 		height:30px;
 	}
 	.menu-buttons a span, #search-adv a span, #persistent a span {
-		padding: 8px 10px 0 0;
+		padding: 8px 0 0 0;
 	}
 	#above-header a span {
-		padding: 10px 10px 0 0;
+		padding: 10px 0 0 0;
 	}
 	.menu-buttons span.arrow {
 		padding-top: 5px;
 	}
 	
 	.nav-links {
-		padding: 5px 0px 0px 0px;
+		padding: 5px 6px 0px 0px;
 	}
 	.nav-links a {
 		padding-right: 0px;

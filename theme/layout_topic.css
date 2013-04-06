@@ -138,7 +138,7 @@ ul.profile-icons li a:hover {
 .postbody ul.profile-icons {
 	float: left;
 	width: auto;
-	padding: 0 0 5px 0;
+	padding: 0 0 0 0;
 	font-size:96%;
 }
 
