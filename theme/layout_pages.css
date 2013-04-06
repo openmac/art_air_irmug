@@ -113,8 +113,8 @@ li.activetab strong, #active-subsection strong,
 */
 div.cp-panel {
     background: none;
-    padding: 0 165px 0 0;
-    max-width: 80%;
+    padding: 0 155px 0 0;
+    max-width: 100%;
 }
 p.linkmcp { color: #444; }
 
