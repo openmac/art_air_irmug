@@ -120,6 +120,16 @@
     padding: 0 10px;
 }
 
+p#last-visit-box { 
+    display: inline-block;
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+ }
+
 #search-adv, #persistent, #above-header, #login-logout {
     display: block;
     float: right;
