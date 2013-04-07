@@ -183,9 +183,6 @@
 </div>
 <div id="belowbar">
 	<div id="page-header" class="responsive-menu-nojs">
-		<div class="menu-buttons responsive-menu" style="display:none;">
-			<a href="javascript:void(0);"><!-- IF L_MENU --><span>{L_MENU}</span><!-- ELSE --><span class="arrow">&hellip;</span><!-- ENDIF --></span></a>
-		</div>
 	<!-- IF not S_IS_BOT and S_USER_LOGGED_IN --><div id="persistent">
 	 <a href="{U_PROFILE}" title="{L_PROFILE}" accesskey="e"><span>پنل کاربری</span></a> </div> <!-- ENDIF -->
 	    <div id="nav-header" class="menu-buttons"> 
@@ -213,7 +210,9 @@
 	    		<a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}"><span>{L_SEARCH_ADV}</span></a>
 	    	</div>
 	    <!-- ENDIF -->
-	    
+	    <div class="menu-buttons responsive-menu" style="display:none;">
+	    	<a href="javascript:void(0);"><!-- IF L_MENU --><span>{L_MENU}</span><!-- ELSE --><span class="arrow">&hellip;</span><!-- ENDIF --></span></a>
+	    </div>
 	</div>
 </div>
 <div id="page-body">

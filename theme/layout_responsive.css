@@ -38,15 +38,20 @@
 		text-align: center;
 	}
 	#nav-header { display: none !important; }
-	.responsive-menu-nojs:hover #nav-header, .responsive-menu-visible #nav-header { display: block !important; }
+	.responsive-menu-nojs:hover #nav-header, .responsive-menu-visible #nav-header { display: block !important; left:72px; }
 
 
-	.menu-buttons a, .menu-buttons a:visited, #search-adv a, #search-adv a:visited {
+	#search-adv a, #search-adv a:visited {
 		float:left;
 		margin-left: 0;
 		padding-left: 0;
-		padding-right: 20px;
 		}
+	.menu-buttons a, .menu-buttons a:visited {
+		float:left;
+		margin-left: 0;
+		padding-left: 10px;
+		padding-right: 10px;		
+	}
 
 	.menu-buttons a .arrow {
 		margin-right: 0px;
