@@ -155,7 +155,9 @@
     -o-transition: none;
     -ms-transition: none;
 }
-
+#search-adv a, #search-adv a:visited {
+    padding-left: 0;
+}
 
 .menu-buttons a span, #search-adv a span, #persistent a span, #above-header a span, #login-logout a span {
     display: inline-block;
