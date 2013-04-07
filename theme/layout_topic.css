@@ -355,7 +355,7 @@ fieldset.polls dl.voted dd div { background-position: 0 -125px; }
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background: rgba(255, 255, 255, 0.3) url({T_THEME_PATH}/images/bb_quote.png) 5px 8px no-repeat;
+	background: rgba(245, 245, 245, 1) url(./styles/art_air_irmug/theme/images/bb_quote.png) 5px 8px no-repeat;
 	border: 1px solid #ddd;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
