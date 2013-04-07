@@ -19,11 +19,11 @@ input[type="text"], input[type="password"], select, textarea {
     font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     padding: 4px 10px 3px 8px;
     font-size: 14px;
-    transition-property: border-color, background-color, color;
-    -webkit-transition-property: border-color, background-color, color;
-    -moz-transition-property: border-color, background-color, color;
-    -o-transition-property: border-color, background-color, color;
-    -ms-transition-property: border-color, background-color, color;
+    transition-property: border-color, background-color, color, width;
+    -webkit-transition-property: border-color, background-color, color, width;
+    -moz-transition-property: border-color, background-color, color, width;
+    -o-transition-property: border-color, background-color, color, width;
+    -ms-transition-property: border-color, background-color, color, width;
     transition-duration: 0.25s;
     -webkit-transition-duration: 0.25s;
     -moz-transition-duration: 0.25s;
@@ -295,7 +295,7 @@ input.inputbox	{ width: 85%; }
 input.medium	{ width: 50%; }
 input.narrow	{ width: 25%; }
 input.tiny		{ width: 125px; }
-input.headerbox { border-radius:15px; padding: 3px 10px 2px 8px; width:100px; background-position: 8px 7px !important; }
+input.headerbox { border-radius:15px; padding: 3px 10px 2px 8px; width:100px; background-position: 8px 7px !important; float:left }
 input.headerbox:focus { width:150px; }
 
 textarea.inputbox {

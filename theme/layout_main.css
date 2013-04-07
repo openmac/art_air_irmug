@@ -166,10 +166,6 @@
     direction:rtl;
 }
 
-#search-adv a span:after {
-    content: "ی پیشرفته";
-}
-
 #above-header a, #above-header a:visited {
 	color: #154356;
 }

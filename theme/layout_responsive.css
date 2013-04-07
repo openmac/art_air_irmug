@@ -17,9 +17,6 @@
 	/* navigation */
 	.responsive-menu { display: block !important; }
 	#search-box { display: none !important; }
-	#search-adv a span:after {
-		content: "";
-	}
 	#page-header { position: relative; }
 	#nav-header {
 		float: none;
@@ -79,7 +76,6 @@
 		padding: 0;
 		margin: 0;
 	}
-	div.headerbox { display:none; }
 	
 	.buttons div {
 		margin-left: 0px;
@@ -143,11 +139,24 @@
 	}
 	p.rightside { text-align: left; }
 	
-	div.pagination, div.buttons, div.search-box {
+	div.pagination, div.buttons {
 		float: none;
 		clear: both;
 		padding-top: 5px;
 		padding-bottom: 5px;
+	}
+	div.search-box {
+		clear: none;
+		width: 100px;
+	}
+	input.headerbox {
+		padding: 1px 8px 1px 22px;
+		background-position: 8px 5px !important;
+		float: left;
+	}
+	input.headerbox:focus {
+		width: 150%;
+		font-size: 14px !important;
 	}
 	
 	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
@@ -332,6 +341,9 @@
 	background-image: url({T_THEME_PATH}/images/menu2.png);
 	background-size: 15px 70px;
 	padding-right: 5px;
+	}
+	#search-adv {
+		display:none;
 	}
 	
 	
