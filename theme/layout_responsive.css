@@ -17,6 +17,9 @@
 	/* navigation */
 	.responsive-menu { display: block !important; }
 	#search-box { display: none !important; }
+	#search-adv a span:after {
+		content: "";
+	}
 	#page-header { position: relative; }
 	#nav-header {
 		float: none;
@@ -35,22 +38,31 @@
 	#nav-header a span {
 		display: block;
 		max-width: 320px;
-		text-align: center;
+		text-align: right;
+		padding-right: 8px;
 	}
 	#nav-header { display: none !important; }
-	.responsive-menu-nojs:hover #nav-header, .responsive-menu-visible #nav-header { display: block !important; left:72px; }
+	.responsive-menu-nojs:hover #nav-header, .responsive-menu-visible #nav-header { 
+	display: block !important; 
+	right: -10px;
+	border-bottom-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	box-shadow: 0px 1px 3px #000; 
+	-webkit-box-shadow: 0px 1px 3px #000;
+	}
 
 
 	#search-adv a, #search-adv a:visited {
-		float:left;
+		float:right;
 		margin-left: 0;
 		padding-left: 0;
 		}
 	.menu-buttons a, .menu-buttons a:visited {
-		float:left;
+		float: right;
 		margin-left: 0;
-		padding-left: 10px;
-		padding-right: 10px;		
+		padding: 3px 0 4px 15px;
 	}
 
 	.menu-buttons a .arrow {
