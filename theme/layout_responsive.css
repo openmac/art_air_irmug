@@ -301,8 +301,12 @@
 		width: 220px;
 		height: 72px;
 	}
-	#abovebar, #belowbar {
+	#abovebar {
+		height:30px;
+	}
+	#belowbar {
 		height:33px;
+		margin-bottom: 9px;
 	}
 	.menu-buttons a span, #search-adv a span, #persistent a span {
 		padding: 8px 0 0 0;
