@@ -46,10 +46,12 @@
 	-webkit-border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	-webkit-border-bottom-right-radius: 5px;
-	box-shadow: 0px 1px 3px #000; 
-	-webkit-box-shadow: 0px 1px 3px #000;
+	box-shadow: -3px 4px 2px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: -3px 4px 2px 1px rgba(0, 0, 0, 0.3);
 	}
-
+	#belowbar {
+		box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.3);
+	}
 	#search-adv a, #search-adv a:visited {
 		float:right;
 		margin-left: 0;
@@ -299,8 +301,12 @@
 		width: 220px;
 		height: 72px;
 	}
-	#abovebar, #belowbar {
+	#abovebar {
 		height:30px;
+	}
+	#belowbar {
+		height:33px;
+		margin-bottom: 9px;
 	}
 	.menu-buttons a span, #search-adv a span, #persistent a span {
 		padding: 8px 0 0 0;
@@ -367,7 +373,7 @@
 	}
 	input.headerbox:focus {
 		width: 150%;
-		font-size: 14px !important;
+		font-size: 16px !important;
 	}
 	#search-adv {
 		display:none;
