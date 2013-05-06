@@ -246,5 +246,17 @@ $(document).ready(function() {
 			return val.replace('.svg', '.png');
 		});
     }
+
+    // show/hide quotes on iPhone
+    $('a.show-hide-quote').click(function () {
+        var div_with_contents = $(this).siblings('.quoted-content')[0];
+        if ($(div_with_contents).css('display') == 'block') {
+            $(div_with_contents).css('display', 'none');
+            $(this).html('[نمایش]');
+        } else {
+            $(div_with_contents).css('display', 'block');
+            $(this).html('[پنهان‌سازی]');
+        }
+    });
 });
 

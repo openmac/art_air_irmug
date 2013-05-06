@@ -463,6 +463,9 @@ div.rules .inner {
     padding: 5px;
 }
 
+
+div.content blockquote a.show-hide-quote { display: none; }
+
 /*
 	Switch to mobile style link
 */

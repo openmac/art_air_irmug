@@ -378,6 +378,11 @@
 	#search-adv {
 		display:none;
 	}
+
+	/* forum/viewtopic */
+	div.content blockquote cite { display: inline; }
+	div.content blockquote a.show-hide-quote { display: inline; }
+	div.content blockquote div.quoted-content { display: none; }
 }
 
 @media only screen and (device-width: 768px)
