@@ -250,7 +250,8 @@ a.top2 {
 	text-decoration: none;
 	padding-left: 14px;
 	line-height: 1em;
-	margin: 4px 0;
+    padding-right: 6px;
+	margin: 18px 10px 0;
 	display: inline-block;
 }
 
