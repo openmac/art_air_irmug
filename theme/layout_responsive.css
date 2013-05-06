@@ -148,11 +148,11 @@
 	}
 	
 	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
-		padding: 2px 6px;
+		padding: 3px 7px;
 	}
 	
 	.pagination span strong {
-		padding: 2px 6px;		
+		padding: 3px 7px;
 	}
 	
 	.row .pagination {
@@ -359,7 +359,7 @@
 	textarea:focus, select:focus {
 	  font-size: 16px;
 	}
-	div.search-box {
+	div.search-box.header-box {
 		clear: none;
 		width: 100px;
 	}
@@ -381,7 +381,9 @@
 	div.content blockquote a.show-hide-quote { display: inline-block; }
 	div.content blockquote div.quoted-content { display: none; }
 
-	#smiley-box { max-width: 100%; a }
+	#smiley-box { max-width: 100%; }
+
+	.pagination span strong, .pagination span a { margin-top: 8px;}
 }
 
 @media only screen and (device-width: 768px)
