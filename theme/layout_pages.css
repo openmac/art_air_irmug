@@ -337,9 +337,11 @@ ol.def-rules li {
 }
 
 #topicreview {
-	padding-right: 5px;
+  background-color: #efefef;
+  border: 1px solid #aba;
+	padding: 7px;
 	overflow: auto;
-	height: 300px;
+	height: 350px;
 }
 
 #topicreview .postbody {

@@ -484,6 +484,24 @@ li.pagination {
 	text-align: right;
 }
 
+#sidebar {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#bbcode-status, #smiley-box, #message-box {
+  float: none;
+  width: auto;
+  padding: 5px;
+  display: inline-block;
+}
+#smiley-box { max-width: 160px; }
+
+#format-buttons input.button2 {
+  padding: 3px;
+  margin: 3px;
+}
+
 /* Login on index */
 body.section-index #page-body > form > h3 { display: none; }
 
