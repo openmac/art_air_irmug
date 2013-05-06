@@ -105,6 +105,9 @@
     min-height: 10px;
     max-width: 900px;
 }
+#page-header a:hover span, #persistent a:hover span, #search-adv a:hover span {
+    color: rgb(226, 226, 0);
+}
 
 #abovebar {
     max-width:900px;
@@ -194,7 +197,7 @@ p#last-visit-box {
 	margin-top: -6px;
 }
 
-.menu-buttons a:hover span, .menu-buttons a.new span, #search-adv a:hover span, #persistent a:hover span, #above-header a:hover span, #login-logout a:hover span {
+.menu-buttons a:hover span, .menu-buttons a.new span, #above-header a:hover span, #login-logout a:hover span {
     color: #da2220;
 }
 .menu-buttons span.arrow { padding-top: 8px; height: 22px; font-size: 15px; }
