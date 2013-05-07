@@ -189,7 +189,7 @@ p#last-visit-box {
 
 .menu-buttons a span, #search-adv a span, #persistent a span, #above-header a span, #login-logout a span {
     display: inline-block;
-    padding: 12px 0 0 0;
+    padding: 12px 0 0 10px;
     height: 21px;
     font-size: 14px;
     font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
