@@ -384,6 +384,7 @@
 	#smiley-box { max-width: 100%; }
 
 	.pagination span strong, .pagination span a { margin-top: 8px;}
+	.pagination { text-align: right; }
 }
 
 @media only screen and (device-width: 768px)

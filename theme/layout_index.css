@@ -401,8 +401,9 @@ div[class].topic-actions {
 /* Pagination
 ---------------------------------------- */
 .pagination {
-	width: auto;
-	text-align: right;
+  max-width: 350px;
+	width: 100%;
+	text-align: left;
 	margin-top: 5px;
 	margin-bottom: 3px;
 	float: left;
