@@ -159,7 +159,7 @@ div.forabg, div.forumbg, div.panel-wrapper {
 .corners-top, .corners-bottom { display: none; }
 
 .topic-actions, .profile-icons {
-    opacity: 0;
+    opacity: 1;
 }
 div.nav-links, img, .topic-actions, .profile-icons, div.rules, div.forabg, div.forumbg, div.post, .panel, .cp-mini {
     transition: opacity 1s ease;
