@@ -1,6 +1,6 @@
 <!-- INCLUDE overall_header.html -->
 
-<h2><!-- IF SEARCH_TITLE -->{SEARCH_TITLE}<!-- ELSE -->{SEARCH_MATCHES}<!-- ENDIF --><!-- IF SEARCH_WORDS -->: <a href="{U_SEARCH_WORDS}">{SEARCH_WORDS}</a><!-- ENDIF --></h2>
+<h2><!-- IF SEARCH_TITLE -->{SEARCH_TITLE}<!-- ELSE --><span class="farsi-numerals">{SEARCH_MATCHES}</span><!-- ENDIF --><!-- IF SEARCH_WORDS --> — <a href="{U_SEARCH_WORDS}">{SEARCH_WORDS}</a><!-- ENDIF --></h2>
 <!-- IF IGNORED_WORDS --> <p>{L_IGNORED_TERMS}: <strong>{IGNORED_WORDS}</strong></p><!-- ENDIF -->
 
 <!-- IF SEARCH_TOPIC -->
@@ -58,11 +58,11 @@
 						<!-- IF searchresults.S_TOPIC_UNAPPROVED or searchresults.S_POSTS_UNAPPROVED --><a href="{searchresults.U_MCP_QUEUE}">{searchresults.UNAPPROVED_IMG}</a> <!-- ENDIF -->
 						<!-- IF searchresults.S_TOPIC_REPORTED --><a href="{searchresults.U_MCP_REPORT}">{REPORTED_IMG}</a><!-- ENDIF --><br />
 						<!-- IF searchresults.PAGINATION --><strong class="pagination"><span>{searchresults.PAGINATION}</span></strong><!-- ENDIF -->
-						{L_POST_BY_AUTHOR} {searchresults.TOPIC_AUTHOR_FULL} &raquo; {searchresults.FIRST_POST_TIME}
+						{L_POST_BY_AUTHOR} {searchresults.TOPIC_AUTHOR_FULL} &raquo; <span class="farsi-numerals">{searchresults.FIRST_POST_TIME}</span>
 						<!-- IF not searchresults.S_TOPIC_GLOBAL -->{L_IN} <a href="{searchresults.U_VIEW_FORUM}">{searchresults.FORUM_TITLE}</a><!-- ELSE --> ({L_GLOBAL})<!-- ENDIF -->
 					</dt>
-					<dd class="posts">{searchresults.TOPIC_REPLIES}</dd>
-					<dd class="views">{searchresults.TOPIC_VIEWS}</dd>
+					<dd class="posts farsi-numerals">{searchresults.TOPIC_REPLIES}</dd>
+					<dd class="views farsi-numerals">{searchresults.TOPIC_VIEWS}</dd>
 					<dd class="lastpost"><span>
 						{L_POST_BY_AUTHOR} {searchresults.LAST_POST_AUTHOR_FULL}
 						<!-- IF not S_IS_BOT --><a href="{searchresults.U_LAST_POST}">{LAST_POST_IMG}</a> <!-- ENDIF --><br />{searchresults.LAST_POST_TIME}<br /> </span>
@@ -95,13 +95,13 @@
 	<!-- ELSE -->
 		<div class="postbody">
 			<h3><a href="{searchresults.U_VIEW_POST}">{searchresults.TOPIC_TITLE}</a></h3>
-			<p class="author searchresult-author"><a href="{postrow.U_MINI_POST}">{searchresults.MINI_POST_IMG}</a>{L_POST_BY_AUTHOR} <strong>{searchresults.POST_AUTHOR_FULL}</strong> &raquo; {searchresults.POST_DATE} </p>
+			<p class="author searchresult-author"><a href="{postrow.U_MINI_POST}">{searchresults.MINI_POST_IMG}</a>{L_POST_BY_AUTHOR} <strong>{searchresults.POST_AUTHOR_FULL}</strong> &raquo; <span class="farsi-numerals">{searchresults.POST_DATE}</span> </p>
 			<div class="content">{searchresults.MESSAGE}</div>
 		</div>
 
 		<dl class="postprofile">
 			<dt class="author">{L_POST_BY_AUTHOR} {searchresults.POST_AUTHOR_FULL}</dt>
-			<dd>{searchresults.POST_DATE}</dd>
+			<dd class="farsi-numerals">{searchresults.POST_DATE}</dd>
 			<dd>&nbsp;</dd>
 			<!-- IF searchresults.FORUM_TITLE -->
 				<dd>{L_FORUM}: <a href="{searchresults.U_VIEW_FORUM}">{searchresults.FORUM_TITLE}</a></dd>
@@ -109,8 +109,8 @@
 			<!-- ELSE -->
 				<dd>{L_GLOBAL}: <a href="{searchresults.U_VIEW_TOPIC}">{searchresults.TOPIC_TITLE}</a></dd>
 			<!-- ENDIF -->
-			<dd>{L_REPLIES}: <strong>{searchresults.TOPIC_REPLIES}</strong></dd>
-			<dd>{L_VIEWS}: <strong>{searchresults.TOPIC_VIEWS}</strong></dd>
+			<dd class="farsi-numerals">{L_REPLIES}: <strong>{searchresults.TOPIC_REPLIES}</strong></dd>
+			<dd class="farsi-numerals">{L_VIEWS}: <strong>{searchresults.TOPIC_VIEWS}</strong></dd>
 		</dl>
 	<!-- ENDIF -->
 

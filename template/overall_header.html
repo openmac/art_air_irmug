@@ -168,7 +168,7 @@
 </div>
 <div id="header">
 	<div style="max-width:900px; margin: 0 auto; position: relative;">	
-	<p id="last-visit-box">
+	<p id="last-visit-box" class="farsi-numerals">
 	<!-- IF U_MCP -->[&nbsp;<a href="{U_MCP}" style="font-size: 11px; color: white;">{L_MCP}</a>&nbsp;]<br />{CURRENT_TIME}<!-- ELSEIF S_USER_LOGGED_IN -->{CURRENT_TIME}<!-- ENDIF -->
   <br />
 	<!-- IF S_USER_LOGGED_IN -->{LAST_VISIT_DATE}<!-- ELSE -->{CURRENT_TIME}<!-- ENDIF --><br />
@@ -191,7 +191,6 @@
 	            <!-- IF U_RESTORE_PERMISSIONS -->
 	                <a href="{U_RESTORE_PERMISSIONS}"><span>{L_RESTORE_PERMISSIONS}</span></a> 
 	            <!-- ENDIF -->
-	        <a href="{U_FAQ}" title="{L_FAQ_EXPLAIN}"><span>{L_FAQ}</span></a> 
 	        <!-- IF not S_IS_BOT -->
 	            <!-- IF S_DISPLAY_MEMBERLIST --><a href="{U_MEMBERLIST}" title="{L_MEMBERLIST_EXPLAIN}"><span>{L_MEMBERLIST}</span></a> <!-- ENDIF -->
 	        <!-- ENDIF -->

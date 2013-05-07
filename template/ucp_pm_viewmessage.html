@@ -28,7 +28,7 @@
 		<h3 class="first">{SUBJECT}</h3>
 
 		<p class="author">
-			<strong>{L_SENT_AT}:</strong> {SENT_DATE}
+			<strong >{L_SENT_AT}:</strong> <span class="farsi-numerals">{SENT_DATE}</span>
 			<br /><strong>{L_PM_FROM}:</strong> {MESSAGE_AUTHOR_FULL}
 			<!-- IF S_TO_RECIPIENT --><br /><strong>{L_TO}:</strong> <!-- BEGIN to_recipient --><!-- IF to_recipient.NAME_FULL -->{to_recipient.NAME_FULL}<!-- ELSE --><a href="{to_recipient.U_VIEW}" style="color:<!-- IF to_recipient.COLOUR -->{to_recipient.COLOUR}<!-- ELSEIF to_recipient.IS_GROUP -->#0000FF<!-- ENDIF -->;">{to_recipient.NAME}</a><!-- ENDIF -->&nbsp;<!-- END to_recipient --><!-- ENDIF -->
 			<!-- IF S_BCC_RECIPIENT --><br /><strong>{L_BCC}:</strong> <!-- BEGIN bcc_recipient --><!-- IF bcc_recipient.NAME_FULL -->{bcc_recipient.NAME_FULL}<!-- ELSE --><a href="{bcc_recipient.U_VIEW}" style="color:<!-- IF bcc_recipient.COLOUR -->{bcc_recipient.COLOUR}<!-- ELSEIF bcc_recipient.IS_GROUP -->#0000FF<!-- ENDIF -->;">{bcc_recipient.NAME}</a><!-- ENDIF -->&nbsp;<!-- END bcc_recipient --><!-- ENDIF -->
@@ -66,8 +66,8 @@
 		<!-- IF RANK_TITLE --><dd>{RANK_TITLE}</dd><!-- ENDIF -->
 		<!-- IF RANK_IMG --><dd>{RANK_IMG}</dd><!-- ENDIF -->
 		<dd>&nbsp;</dd>
-		<dd><strong>{L_POSTS}:</strong> {AUTHOR_POSTS}</dd>
-		<!-- IF AUTHOR_JOINED --><dd><strong>{L_JOINED}:</strong> {AUTHOR_JOINED}</dd><!-- ENDIF -->
+		<dd class="farsi-numerals"><strong>{L_POSTS}:</strong> {AUTHOR_POSTS}</dd>
+		<!-- IF AUTHOR_JOINED --><dd class="farsi-numerals"><strong >{L_JOINED}:</strong> {AUTHOR_JOINED}</dd><!-- ENDIF -->
 		<!-- IF AUTHOR_FROM --><dd><strong>{L_LOCATION}:</strong> {AUTHOR_FROM}</dd><!-- ENDIF -->
 		
 		<!-- IF U_PM or U_EMAIL or U_WWW or U_MSN or U_ICQ or U_YIM or U_AIM or U_JABBER -->

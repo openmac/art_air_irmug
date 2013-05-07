@@ -1,5 +1,5 @@
 <fieldset class="fields1">
-	<!-- IF ERROR --><p class="error">{ERROR}</p><!-- ENDIF -->
+	<!-- IF ERROR --><p class="farsi-numerals error">{ERROR}</p><!-- ENDIF -->
 
 	<!-- IF S_PRIVMSGS and not S_SHOW_DRAFTS -->
 
@@ -74,16 +74,6 @@
 	<dl>
 		<dt><label for="delete">{L_DELETE_POST}:</label></dt>
 		<dd><label for="delete"><input type="checkbox" name="delete" id="delete" /> {L_DELETE_POST_WARN}</label></dd>
-	</dl>
-	<!-- ENDIF -->
-
-	<!-- IF S_SHOW_TOPIC_ICONS or S_SHOW_PM_ICONS -->
-	<dl>
-		<dt><label for="icon">{L_ICON}:</label></dt>
-		<dd>
-			<label for="icon"><input type="radio" name="icon" id="icon" value="0" checked="checked" tabindex="1" /> <!-- IF S_SHOW_TOPIC_ICONS -->{L_NO_TOPIC_ICON}<!-- ELSE -->{L_NO_PM_ICON}<!-- ENDIF --></label>
-			<!-- BEGIN topic_icon --><label for="icon-{topic_icon.ICON_ID}"><input type="radio" name="icon" id="icon-{topic_icon.ICON_ID}" value="{topic_icon.ICON_ID}" {topic_icon.S_ICON_CHECKED} tabindex="1" /><img src="{topic_icon.ICON_IMG}" width="{topic_icon.ICON_WIDTH}" height="{topic_icon.ICON_HEIGHT}" alt="" title="" /></label> <!-- END topic_icon -->
-		</dd>
 	</dl>
 	<!-- ENDIF -->
 

@@ -558,6 +558,7 @@ div.dropdown-tabs > ul {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
+    width: auto;
 }
 div.dropdown-tabs:hover > ul { display: block; }
 .dropdown-tabs li a, .dropdown-tabs span,
@@ -569,6 +570,7 @@ div.dropdown-tabs:hover > ul { display: block; }
     height: auto;
     border:none;
     box-shadow:none;
+    width: 100%;
 }
 
 #tabs li#active-subsection a span {

@@ -34,10 +34,10 @@
 					<!-- IF recent_topics.S_TOPIC_UNAPPROVED or recent_topics.S_POSTS_UNAPPROVED --><a href="{recent_topics.U_MCP_QUEUE}">{recent_topics.UNAPPROVED_IMG}</a> <!-- ENDIF -->
 					<!-- IF recent_topics.S_TOPIC_REPORTED --><a href="{recent_topics.U_MCP_REPORT}">{REPORTED_IMG}</a><!-- ENDIF --><br />
 					<!-- IF recent_topics.PAGINATION --><strong class="pagination"><span>{recent_topics.PAGINATION}</span></strong><!-- ENDIF -->
-					{L_POST_BY_AUTHOR} {recent_topics.LAST_POST_AUTHOR_FULL} &raquo; {recent_topics.LAST_POST_TIME}
+					{L_POST_BY_AUTHOR} {recent_topics.LAST_POST_AUTHOR_FULL} &raquo; <span class="farsi-numerals">{recent_topics.LAST_POST_TIME}</span>
 				</dt>
-				<dd class="posts">{recent_topics.REPLIES} <dfn>{L_REPLIES}</dfn></dd>
-				<dd class="views">{recent_topics.VIEWS} <dfn>{L_VIEWS}</dfn></dd>
+				<dd class="posts farsi-numerals">{recent_topics.REPLIES} <dfn>{L_REPLIES}</dfn></dd>
+				<dd class="views farsi-numerals">{recent_topics.VIEWS} <dfn>{L_VIEWS}</dfn></dd>
 				<dd class="lastpost"><!-- IF recent_topics.U_VIEW_FORUM and recent_topics.FORUM_NAME --><a href="{recent_topics.U_VIEW_FORUM}" style="font-weight: normal; font-size: 13px; padding-right: 5px; line-height: 2.1em; ">{recent_topics.FORUM_NAME}</a><!-- ENDIF -->
 				</dd>
 			</dl>
