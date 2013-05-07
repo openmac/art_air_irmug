@@ -34,8 +34,8 @@ $(document).ready(function() {
         if(test.style['textShadow'] != 'undefined') $('body').addClass('has-shadows');
         delete test;
             
-        setTimeout("$('body').addClass('transform');", 500);
-        $(window).load(function() { $('body').addClass('transform'); });
+        // setTimeout("$('body').addClass('transform');", 500);
+        // $(window).load(function() { $('body').addClass('transform'); });
     }
 
     // navigation

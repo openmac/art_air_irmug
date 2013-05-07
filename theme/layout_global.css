@@ -161,6 +161,7 @@ div.forabg, div.forumbg, div.panel-wrapper {
 .topic-actions, .profile-icons {
     opacity: 1;
 }
+/*
 div.nav-links, img, .topic-actions, .profile-icons, div.rules, div.forabg, div.forumbg, div.post, .panel, .cp-mini {
     transition: opacity 1s ease;
     -webkit-transition: opacity 1s ease;
@@ -181,7 +182,7 @@ body.transform div.nav-links {
     -ms-transition-duration: 0.5s, 0.5s, 1s;
 }
 body.transform div.nav-links, body.transform img, body.transform .topic-actions, body.transform .profile-icons { opacity: 1; }
-
+*/
 /* 
     Arrow links  
 */
