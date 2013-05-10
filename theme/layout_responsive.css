@@ -1,16 +1,13 @@
 /* iPad and iPhone */
-@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
-{
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
 	.postprofile img {
 		max-width: 145px;
 		height: auto;
 	}
 }
 
-
-
-@media only screen and (max-width: 700px), only screen and (max-device-width: 700px)
-{
+/* iPhone - Landscape (and larger devices) */
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px), only screen and (max-device-width: 479px) and (orientation:landscape) {
 	/* main stuff */
 	body { min-width: 320px; }
 
@@ -286,9 +283,8 @@
 	#smiley-box { max-width: 100%; }
 }
 
-/* iPhone */
-@media only screen and (max-width: 500px), only screen and (max-device-width: 500px)
-{
+/* iPhone - Portrait */
+@media only screen and (max-width: 479px), only screen and (max-device-width: 479px) and (orientation:portrait) {
 	/* header */
 	#header {
 	padding: 0;
@@ -387,8 +383,17 @@
 	.pagination { text-align: right; }
 }
 
-@media only screen and (device-width: 768px)
-{
+
+/* iPhone - Landscape */
+@media only screen and (max-device-width: 479px) and (orientation:landscape) {
+	.postbody .content {
+    font-size: 9px;
+  }
+}
+
+
+/* Who knows what this is supposed to fix... */
+@media only screen and (device-width: 768px) {
 	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
 		padding: 2px 6px;
 	}
@@ -396,7 +401,7 @@
 		padding: 2px 6px;		
 	}
 	.post ul.profile-icons li {
-opacity: 1;
+		opacity: 1;
 	}
 	.search-box input.button2 {
 		opacity: 1;
