@@ -21,12 +21,11 @@
 	<div class="copyright">
 		<!-- IF U_ACP --><strong><a href="{U_ACP}">{L_ACP}</a></strong><br><!-- ENDIF -->
         <!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
-	    <p class="copy-left">
-	        {CREDIT_LINE}
-            <br />
-            <!-- IF TRANSLATION_INFO -->{TRANSLATION_INFO}<!-- ENDIF -->
-    		<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
-		</p>
+	    <div class="copy-left">
+	        <p>{CREDIT_LINE}</p>
+            <p><!-- IF TRANSLATION_INFO -->{TRANSLATION_INFO}<!-- ENDIF --></p>
+    		<p><!-- IF DEBUG_OUTPUT -->{DEBUG_OUTPUT}<!-- ENDIF --></p>
+		</div>
 <!--
     Please do not remove style author's link below. For updates and support visit http://www.artodia.com/
 //-->

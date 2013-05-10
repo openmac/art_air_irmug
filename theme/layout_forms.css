@@ -238,7 +238,8 @@ fieldset.forum-selection2 {
 /* Jumpbox */
 fieldset.jumpbox {
 	text-align: right;
-	margin-top: 15px;
+	margin-top: 35px;
+  padding-top: 10px;
 	height: 2.5em;
 	width:100%;
 }
@@ -248,7 +249,8 @@ fieldset.quickmod {
 	float: right;
 	text-align: right;
 	height: 2.5em;
-	margin-top: 6px;
+  margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 /* Submit button fieldset */

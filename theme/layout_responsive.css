@@ -1,16 +1,13 @@
 /* iPad and iPhone */
-@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
-{
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
 	.postprofile img {
 		max-width: 145px;
 		height: auto;
 	}
 }
 
-
-
-@media only screen and (max-width: 700px), only screen and (max-device-width: 700px)
-{
+/* iPhone - Landscape (and larger devices) */
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px), only screen and (max-device-width: 479px) and (orientation:landscape) {
 	/* main stuff */
 	body { min-width: 320px; }
 
@@ -143,16 +140,16 @@
 	div.pagination, div.buttons {
 		float: none;
 		clear: both;
-		padding-top: 5px;
+		padding-top: 15px;
 		padding-bottom: 5px;
 	}
 	
 	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
-		padding: 2px 6px;
+		padding: 3px 7px;
 	}
 	
 	.pagination span strong {
-		padding: 2px 6px;		
+		padding: 3px 7px;
 	}
 	
 	.row .pagination {
@@ -210,10 +207,6 @@
 	dl.pmlist dd { margin-left: 0 !important; }
 
 	/* posting form */
-	#smiley-box, #message-box {
-		float: none;
-		width: auto;
-	}
 	#message-box textarea, input.inputbox { 
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
@@ -287,14 +280,14 @@
 	}
 	.search .postbody { width: 97%; }
 	.searchresult-author { display: block; }
+	#smiley-box { max-width: 100%; }
 }
 
-/* iPhone */
-@media only screen and (max-width: 500px), only screen and (max-device-width: 500px)
-{
+/* iPhone - Portrait */
+@media only screen and (max-width: 479px), only screen and (max-device-width: 479px) and (orientation:portrait) {
 	/* header */
 	#header {
-	padding: 0;
+		padding: 0;
 	}
 	#logo img {
 		margin: 2px 10px 2px 15px;
@@ -329,9 +322,9 @@
 		padding-left:10px;
 	}
 	.nav-links a:first-child span {
-	background-image: url({T_THEME_PATH}/images/menu2.png);
-	background-size: 15px 70px;
-	padding-right: 5px;
+		background-image: url({T_THEME_PATH}/images/menu2.png);
+		background-size: 15px 70px;
+		padding-right: 5px;
 	}
 	
 	
@@ -362,7 +355,7 @@
 	textarea:focus, select:focus {
 	  font-size: 16px;
 	}
-	div.search-box {
+	div.search-box.header-box {
 		clear: none;
 		width: 100px;
 	}
@@ -380,13 +373,27 @@
 	}
 
 	/* forum/viewtopic */
-	div.content blockquote cite { display: inline; }
-	div.content blockquote a.show-hide-quote { display: inline; }
+	div.content blockquote cite { display: inline-block; }
+	div.content blockquote a.show-hide-quote { display: inline-block; }
 	div.content blockquote div.quoted-content { display: none; }
+
+	#smiley-box { max-width: 100%; }
+
+	.pagination span strong, .pagination span a { margin-top: 8px;}
+	.pagination { text-align: right; }
 }
 
-@media only screen and (device-width: 768px)
-{
+
+/* iPhone - Landscape */
+@media only screen and (max-device-width: 479px) and (orientation:landscape) {
+	html {
+	    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	}
+}
+
+
+/* Who knows what this is supposed to fix... */
+@media only screen and (device-width: 768px) {
 	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
 		padding: 2px 6px;
 	}
@@ -394,9 +401,11 @@
 		padding: 2px 6px;		
 	}
 	.post ul.profile-icons li {
-opacity: 1;
+		opacity: 1;
 	}
 	.search-box input.button2 {
 		opacity: 1;
 	}
+
+	#smiley-box { max-width: 140px; }
 }
