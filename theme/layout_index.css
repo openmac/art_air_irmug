@@ -326,7 +326,7 @@ ul.topiclist dd.searchextra {
 
 /* Container for post/reply buttons */
 .topic-actions {
-    margin: 0 0 6px;
+  margin: 0 0 6px;
 	font-size: 11px;
 	height: 28px;
 	min-height: 28px;
@@ -401,8 +401,9 @@ div[class].topic-actions {
 /* Pagination
 ---------------------------------------- */
 .pagination {
-	width: auto;
-	text-align: right;
+  max-width: 350px;
+	width: 100%;
+	text-align: left;
 	margin-top: 5px;
 	margin-bottom: 3px;
 	float: left;
@@ -414,10 +415,6 @@ div[class].topic-actions {
 	position: absolute;
 }
 
-li.pagination {
-	margin-top: 0;
-}
-
 .pagination strong, .pagination b {
 	font-weight: normal;
 }
@@ -425,7 +422,8 @@ li.pagination {
 .pagination span strong {
 	padding: 0 3px;
 	margin: 0 2px;
-	font-weight: normal;
+	font-weight: bold;
+  font-size: 13px;
 	border: solid 1px #143751;
     background-color: #154356;
     color: #fff;
@@ -434,11 +432,14 @@ li.pagination {
     -webkit-border-radius: 5px;
 }
 
+.topic-actions .pagination > a { margin-bottom: 16px;}
 .pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
 	font-weight: normal;
 	text-decoration: none;
-	margin: 0 2px 0 0;
-	padding: 0 3px;
+	margin: 6px 2px 0 0;
+	padding: 0 5px;
+  font-size: 11px;
+  font-weight: bold;
     border: solid 1px #d0d0d0;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -483,6 +484,28 @@ li.pagination {
 	margin-top: 10px;
 	text-align: right;
 }
+
+#sidebar {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#bbcode-status, #smiley-box, #message-box {
+  float: none;
+  width: auto;
+  padding: 5px;
+  display: inline-block;
+}
+#smiley-box { max-width: 160px; }
+
+#format-buttons input.button2 {
+  padding: 3px;
+  margin: 3px;
+}
+
+ul.topiclist .tpoic-info { display: inline; }
+ul.topiclist .pagination { padding: 8px 0 2px 0;}
+
 
 /* Login on index */
 body.section-index #page-body > form > h3 { display: none; }

@@ -337,9 +337,11 @@ ol.def-rules li {
 }
 
 #topicreview {
-	padding-right: 5px;
+  background-color: #efefef;
+  border: 1px solid #aba;
+	padding: 7px;
 	overflow: auto;
-	height: 300px;
+	height: 350px;
 }
 
 #topicreview .postbody {
@@ -556,6 +558,7 @@ div.dropdown-tabs > ul {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
+    width: auto;
 }
 div.dropdown-tabs:hover > ul { display: block; }
 .dropdown-tabs li a, .dropdown-tabs span,
@@ -567,6 +570,7 @@ div.dropdown-tabs:hover > ul { display: block; }
     height: auto;
     border:none;
     box-shadow:none;
+    width: 100%;
 }
 
 #tabs li#active-subsection a span {
