@@ -287,7 +287,7 @@
 @media only screen and (max-width: 479px), only screen and (max-device-width: 479px) and (orientation:portrait) {
 	/* header */
 	#header {
-	padding: 0;
+		padding: 0;
 	}
 	#logo img {
 		margin: 2px 10px 2px 15px;
@@ -322,9 +322,9 @@
 		padding-left:10px;
 	}
 	.nav-links a:first-child span {
-	background-image: url({T_THEME_PATH}/images/menu2.png);
-	background-size: 15px 70px;
-	padding-right: 5px;
+		background-image: url({T_THEME_PATH}/images/menu2.png);
+		background-size: 15px 70px;
+		padding-right: 5px;
 	}
 	
 	
@@ -386,9 +386,9 @@
 
 /* iPhone - Landscape */
 @media only screen and (max-device-width: 479px) and (orientation:landscape) {
-	.postbody .content {
-    font-size: 9px;
-  }
+	html {
+	    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	}
 }
 
 
