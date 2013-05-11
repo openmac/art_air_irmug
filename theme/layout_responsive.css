@@ -389,6 +389,9 @@
 	html {
 	    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
 	}
+	textarea:focus, select:focus, input:focus, input {
+	  font-size: 16px !important;
+	}
 }
 
 
