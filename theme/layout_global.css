@@ -439,3 +439,9 @@ fieldset.display-options {
     background-color: #f57270;
 }
 #old-browser a { color: #000 !important; }
+
+.smiley {
+    margin-bottom: -4px;
+    width: 20px;
+    height: 20px;
+}
