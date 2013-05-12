@@ -13,8 +13,8 @@
     font-family: 'FakeFarsiNumbers-Regular';
     src: url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Regular.eot');
     src: local('☺'),
-        url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Regular.woff') format('woff'),
         url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Regular.ttf') format('truetype'),
+        url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Regular.woff') format('woff'),
         url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -25,8 +25,8 @@
     font-family: 'FakeFarsiNumbers-Regular';
     src: url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Bold.eot');
     src: local('☺'),
-        url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Bold.woff') format('woff'),
         url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Bold.ttf') format('truetype'),
+        url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Bold.woff') format('woff'),
         url('styles/art_air_irmug/theme/fonts/XBZar/XBZar_FakeNumbers-Bold.svg') format('svg');
     font-weight: bold;
     font-style: normal;
