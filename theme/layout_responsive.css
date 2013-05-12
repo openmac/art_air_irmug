@@ -365,7 +365,7 @@
 		float: left;
 	}
 	input.headerbox:focus {
-		width: 220px;
+		width: 150px;
 		font-size: 16px !important;
 	}
 	#search-adv {
