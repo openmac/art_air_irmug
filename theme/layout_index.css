@@ -504,7 +504,7 @@ div[class].topic-actions {
 }
 
 ul.topiclist .tpoic-info { display: inline; }
-ul.topiclist .pagination { padding: 8px 0 2px 0;}
+ul.topiclist .pagination { padding: 0px 0 2px 0;}
 
 
 /* Login on index */

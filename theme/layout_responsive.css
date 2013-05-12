@@ -4,6 +4,7 @@
 		max-width: 145px;
 		height: auto;
 	}
+	ul.topiclist .pagination { padding: 8px 0 2px 0;}
 }
 
 /* iPhone - Landscape (and larger devices) */
@@ -14,7 +15,9 @@
 	/* navigation */
 	.responsive-menu { display: block !important; }
 	#search-box { display: none !important; }
+	
 	#page-header { position: relative; }
+	p#last-visit-box { display: none !important; }
 	#nav-header {
 		float: none;
 		margin: 0;
@@ -205,6 +208,15 @@
 	fieldset.fields2 dd, fieldset dd, fieldset.fields1 dd { padding-left: 20px; }
 	dl.pmlist dt { width: auto !important; }
 	dl.pmlist dd { margin-left: 0 !important; }
+	input.headerbox {
+		padding: 1px 8px 1px 22px;
+		background-position: 8px 5px !important;
+		float: left;
+	}
+	input.headerbox:focus {
+		width: 150px;
+		font-size: 16px !important;
+	}
 
 	/* posting form */
 	#message-box textarea, input.inputbox { 
@@ -395,7 +407,7 @@
 }
 
 
-/* Who knows what this is supposed to fix... */
+/* These are iPad fixes! Some of them may no longer be necessary if opacity animations are not used. */
 @media only screen and (device-width: 768px) {
 	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
 		padding: 2px 6px;
