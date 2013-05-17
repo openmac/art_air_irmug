@@ -393,6 +393,13 @@
 
 	.pagination span strong, .pagination span a { margin-top: 8px;}
 	.pagination { text-align: right; }
+
+	#message-box textarea {
+		width: 260px;
+	}
+	#format-buttons input.button2 {
+	  margin: 2px;
+	}
 }
 
 
@@ -404,10 +411,13 @@
 	textarea:focus, select:focus, input:focus, input {
 	  font-size: 16px !important;
 	}
+	#message-box textarea {
+		width: 430px;
+	}
 }
 
 
-/* These are iPad fixes! Some of them may no longer be necessary if opacity animations are not used. */
+/* iPad - Portrait */
 @media only screen and (device-width: 768px) {
 	.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
 		padding: 2px 6px;
@@ -421,6 +431,17 @@
 	.search-box input.button2 {
 		opacity: 1;
 	}
+	#message-box textarea {
+		width: 500px;
+	}
+	#format-buttons input.button2 {
+	  margin: 7px;
+	}
+}
 
-	#smiley-box { max-width: 140px; }
+/* iPad - Landscape */
+@media only screen and (device-width: 768px) and (orientation:landscape) {
+	#message-box textarea {
+		width: 650px;
+	}
 }
