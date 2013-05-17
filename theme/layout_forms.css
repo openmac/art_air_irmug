@@ -275,6 +275,7 @@ fieldset.submit-buttons {
 
 #message-box textarea {
 	width: 100%;
+  height: 350px;
 }
 
 /* Emoticons panel */
