@@ -38,7 +38,7 @@ body.simple {
 }
 
 a, a:visited {
-    color: #154356;
+    color: rgb(23, 110, 146);
     text-decoration: none;
     transition: color 0.25s ease;
 /* fix for stupid IE    direction: rtl; */
