@@ -362,6 +362,7 @@ dl.details dd {
 }
 
 div.content a, div.signature a { color: rgb(23, 110, 146); }
+div.content a:hover, div.signature a:hover { color: #da2220; }
 
 /*
     Main blocks without rounded container
