@@ -38,7 +38,7 @@ body.simple {
 }
 
 a, a:visited {
-    color: rgb(23, 110, 146);
+    color: #154356;
     text-decoration: none;
     transition: color 0.25s ease;
 /* fix for stupid IE    direction: rtl; */
@@ -360,6 +360,8 @@ dl.details dd {
 	float: right;
 	width: 65%;
 }
+
+div.content a, div.signature a { color: rgb(23, 110, 146); }
 
 /*
     Main blocks without rounded container
