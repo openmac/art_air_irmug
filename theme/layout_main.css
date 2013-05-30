@@ -450,11 +450,10 @@ body.simple #page-body > h2.solo {
 .nav-extra {
     z-index: 2;
     clear: left;
-    float: left;
     position: relative;
     top: -8px;
     font-size: 11px;
-    margin: 8px;
+    margin: 8px 0;
     color: #888;
 }
 .nav-extra-footer { top: 0; }
