@@ -207,11 +207,18 @@ p.author strong { font-weight: normal; }
 	padding-top: 0.2em;
 	font-size: 11px;
 	color: #666;
-	border-top: 1px solid #ddd;
 	clear: left;
 	line-height: 140%;
 	overflow: hidden;
 	width: 100%;
+}
+
+.post.bg1 .signature {
+	border-top: 1px solid #ddd;
+}
+
+.post.bg2 .signature {
+	border-top: 1px solid #bbb;
 }
 
 dd .signature {
