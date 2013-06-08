@@ -27,7 +27,7 @@
 	padding-right: 6px;
 }
 .post.bg1 .postbody { border-right: 1px solid #ddd; }
-.post.bg2 .postbody { border-right: 1px solid #bbb; }
+.post.bg2 .postbody { border-right: 1px solid #ccc; }
 
 .postbody .ignore {
 }
@@ -220,7 +220,7 @@ p.author strong { font-weight: normal; }
 }
 
 .post.bg2 .signature {
-	border-top: 1px solid #bbb;
+	border-top: 1px solid #ccc;
 }
 
 dd .signature {
