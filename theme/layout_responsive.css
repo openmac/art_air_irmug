@@ -442,11 +442,18 @@
 	#format-buttons input.button2 {
 	  margin: 7px;
 	}
+	div.cp-panel {
+    padding: 0 175px 0 0;
+	}
+	
 }
 
 /* iPad - Landscape */
 @media only screen and (device-width: 768px) and (orientation:landscape) {
 	#message-box textarea {
 		width: 650px;
+	}
+	div.cp-panel {
+    padding: 0 175px 0 0;
 	}
 }
