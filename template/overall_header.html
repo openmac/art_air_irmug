@@ -17,11 +17,16 @@
 <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, width=device-width" />
 {META}
 <title>
-  <!-- IF S_IN_INDEX --> <!-- ELSE --> {PAGE_TITLE} – <!-- ENDIF -->
-  <!-- IF S_IN_MCP --> {L_MCP} – 
-  <!-- ELSEIF S_IN_UCP --> {L_UCP} – 
+  <!-- IF S_IN_INDEX -->
+  ایرماگ · انجمن کاربران ایرانی مکینتاش
+  <!-- ELSE -->
+    {PAGE_TITLE} · 
+    <!-- IF S_IN_MCP --> {L_MCP} · 
+    <!-- ELSEIF S_IN_UCP --> {L_UCP} · 
+    <!-- ENDIF -->
+    ایرماگ 
   <!-- ENDIF -->
-ایرماگ </title>
+</title>
 
 <!-- IF S_ENABLE_FEEDS -->
 	<!-- IF S_ENABLE_FEEDS_OVERALL --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {SITENAME}" href="{U_FEED}" /><!-- ENDIF -->
