@@ -440,7 +440,8 @@
 		width: 500px;
 	}
 	#format-buttons input.button2 {
-	  margin: 7px;
+	  margin-right: 10px;
+	  margin-bottom: 5px;
 	}
 	div.cp-panel {
     padding: 0 175px 0 0;
@@ -455,5 +456,8 @@
 	}
 	div.cp-panel {
     padding: 0 175px 0 0;
+	}
+	#format-buttons input.button2 {
+	  margin-right: 5px;
 	}
 }

@@ -11,11 +11,12 @@
 	<input type="button" class="button2" accesskey="b" name="addbbcode0" value=" B " style="font-weight:bold; width: 30px" onclick="bbstyle(0)" title="{L_BBCODE_B_HELP}" />
 	<input type="button" class="button2" accesskey="i" name="addbbcode2" value=" i " style="font-style:italic; width: 30px" onclick="bbstyle(2)" title="{L_BBCODE_I_HELP}" />
 	<input type="button" class="button2" accesskey="u" name="addbbcode4" value=" u " style="text-decoration: underline; width: 30px" onclick="bbstyle(4)" title="{L_BBCODE_U_HELP}" />
+	
 	<!-- BEGIN custom_tags -->
-		<!-- <input type="button" class="button2" name="addbbcode{custom_tags.BBCODE_ID}" value="{custom_tags.BBCODE_TAG}" onclick="bbstyle({custom_tags.BBCODE_ID})" title="{custom_tags.BBCODE_HELPLINE}" /> -->
-		<input type="button" class="button2" name="addbbcode{custom_tags.BBCODE_ID}" value="چپ‌چین" onclick="bbstyle({custom_tags.BBCODE_ID})" title="{custom_tags.BBCODE_HELPLINE}" />
-
+		<input type="button" class="button2" name="addbbcode{custom_tags.BBCODE_ID}" value=
+			<!-- IF custom_tags.BBCODE_TAG === "center" --> "وسط‌چین" <!-- ELSEIF custom_tags.BBCODE_TAG === "left" --> "چپ‌چین" <!-- ELSE --> "{custom_tags.BBCODE_TAG}" <!-- ENDIF --> onclick="bbstyle({custom_tags.BBCODE_ID})" title="{custom_tags.BBCODE_HELPLINE}" />
 	<!-- END custom_tags -->
+
 	<!-- IF S_BBCODE_QUOTE -->
 		<input type="button" class="button2" accesskey="q" name="addbbcode6" value="نقل‌قول" style="width: 50px" onclick="bbstyle(6)" title="{L_BBCODE_Q_HELP}" />
 	<!-- ENDIF -->
