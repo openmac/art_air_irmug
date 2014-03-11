@@ -8,12 +8,12 @@ div#message, #confirm .panel, #agreement .panel {
     margin: 40px 0;
     font-size: 12px;
 }
-div#message .inner, #confirm .panel .inner, #agreement .panel .inner { 
-    padding-bottom: 20px; 
+div#message .inner, #confirm .panel .inner, #agreement .panel .inner {
+    padding-bottom: 20px;
 }
-div#message h2, #confirm h2, #agreement h2 { 
-    margin-left: 0; 
-    margin-bottom: 20px; 
+div#message h2, #confirm h2, #agreement h2 {
+    margin-left: 0;
+    margin-bottom: 20px;
 }
 
 /*
@@ -97,8 +97,8 @@ div#message h2, #confirm h2, #agreement h2 {
 #tabs li.last a:hover span, #tabs li.activetab.last a span, #navigation li.last a:hover span, #navigation li#active-subsection.last a span, #minitabs li.last a:hover span, #minitabs li.activetab.last a span {
     background-position: bottom left;
 }
-#navigation strong, #tabs strong, #minitabs strong { 
-    color: #154356; 
+#navigation strong, #tabs strong, #minitabs strong {
+    color: #154356;
     font-weight: normal;
 }
 li.activetab strong, #active-subsection strong,
@@ -119,7 +119,7 @@ div.cp-panel {
 p.linkmcp { color: #444; }
 
 #cp-main > h2, #cp-main > form > h2 {
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-weight: normal;
 	margin: 8px 0;
 	padding: 0;
@@ -214,7 +214,7 @@ dl.mini dt {
 	color: #444;
 	font-size: 14px;
 	line-height: 1.3em;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
 
 dl.mini dd {
@@ -237,8 +237,8 @@ dl.mini dd {
 
 /* PM panel adjustments */
 .reply-all {
-	display: block; 
-	padding-top: 4px; 
+	display: block;
+	padding-top: 4px;
 	clear: both;
 	float: left;
 }
@@ -248,8 +248,8 @@ dl.mini dd {
 }
 
 #cp-main .pm-message-nav {
-	margin: 0; 
-	padding: 2px 10px 5px 10px; 
+	margin: 0;
+	padding: 2px 10px 5px 10px;
 }
 
 /* PM Message history */
@@ -387,7 +387,7 @@ dl.faq {
 
 dl.faq dt {
 	font-weight: normal;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	font-size: 14px;
 	color: #da2220;
 	line-height: 1.4em;
@@ -432,7 +432,7 @@ table.table1 th {
     color: rgba(255, 255, 255, 0.9);
 	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
     font-size: 12px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1.2em;
     padding: 3px 4px;
 }
@@ -507,9 +507,9 @@ ul.searchresults {
 }
 
 /* Close popup */
-body.simple #page-body > a { 
+body.simple #page-body > a {
     display: block;
-    text-align: center; 
+    text-align: center;
     margin: 4px;
 }
 
@@ -532,7 +532,7 @@ div.dropdown-tabs > a {
     display: inline-block;
     direction: ltr;
     font-size: 14px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     white-space: nowrap;
     margin: 0;
@@ -545,7 +545,7 @@ div.dropdown-tabs > a {
 }
 div.dropdown-tabs:hover { background-position: bottom left; }
 div.dropdown-tabs:hover > a { background-position: bottom right; color: #da2220; }
-div.dropdown-tabs > ul { 
+div.dropdown-tabs > ul {
     display: inline;
     position: absolute;
     top: 37px;
@@ -562,7 +562,7 @@ div.dropdown-tabs > ul {
 }
 div.dropdown-tabs:hover > ul { display: block; }
 .dropdown-tabs li a, .dropdown-tabs span,
-#tabs .dropdown-tabs li a, #tabs .dropdown-tabs li a span { 
+#tabs .dropdown-tabs li a, #tabs .dropdown-tabs li a span {
     background: none;
     margin: 0;
     padding: 0;
@@ -581,7 +581,7 @@ div.dropdown-tabs:hover > ul { display: block; }
 .dropdown-tabs li a, #tabs div.dropdown-tabs ul li a {
     padding: 8px 6px;
 }
-.dropdown-tabs li, #tabs .dropdown-tabs li { 
+.dropdown-tabs li, #tabs .dropdown-tabs li {
     margin: 0;
     padding: 0;
     display: block;

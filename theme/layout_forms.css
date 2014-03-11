@@ -16,7 +16,7 @@ input[type="text"], input[type="password"], select, textarea {
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     padding: 4px 10px 3px 8px;
     font-size: 14px;
     transition-property: border-color, background-color, color, width;
@@ -91,7 +91,7 @@ fieldset dl {
 }
 
 fieldset dt {
-	float: right;	
+	float: right;
 	width: 40%;
 	text-align: right;
 	display: block;
@@ -143,7 +143,7 @@ dt label {
 	font-weight: bold;
 	color: #444;
 	font-size: 12px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
 	text-align: left;
 }
 
@@ -325,7 +325,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1em;
     padding: 4px 8px;
     font-size: 14px;

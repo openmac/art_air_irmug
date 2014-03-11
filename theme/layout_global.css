@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    font-family: "XB Zar", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
+    font-family: "XB Zar", "XBZar", "Zar", "XBZ", "XW Zar", "Geeza Pro", Tahoma, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     line-height: 1.2em;
     font-size: 12px;
     color: #000;
@@ -31,8 +31,8 @@ body {
 html, body {
     background: #e6e6e6 top center repeat-y;
 }
-body.simple { 
-    width: auto; 
+body.simple {
+    width: auto;
     margin: 0;
     padding: 8px;
 }
@@ -183,8 +183,8 @@ body.transform div.nav-links {
 }
 body.transform div.nav-links, body.transform img, body.transform .topic-actions, body.transform .profile-icons { opacity: 1; }
 */
-/* 
-    Arrow links  
+/*
+    Arrow links
 */
 a.up		{ background: url({T_THEME_PATH}/images/arrow_up.png) no-repeat left center; }
 a.down		{ background: url({T_THEME_PATH}/images/arrow_down.png) no-repeat right center; }
@@ -282,7 +282,7 @@ a.up, a.down, a.left, a.right, a.top, a.top2 {
 */
 .clear { clear: both; }
 
-.rightside, .right-box { 
+.rightside, .right-box {
     text-align: right;
 }
 
@@ -292,8 +292,8 @@ a.up, a.down, a.left, a.right, a.top, a.top2 {
     width: auto;
 }
 
-p.rightside, li.rightside, ul.rightside, ul.linklist li.rightside, .right-box { 
-    float: left; 
+p.rightside, li.rightside, ul.rightside, ul.linklist li.rightside, .right-box {
+    float: left;
     margin-left: 5px;
     margin-right: 0;
 }
@@ -333,8 +333,8 @@ hr.dashed {
     min-height: 1px;
     overflow: hidden;
 }
-span.corners-bottom { 
-    display: block; 
+span.corners-bottom {
+    display: block;
     clear: both;
 }
 
@@ -374,7 +374,7 @@ div.content a:hover, div.signature a:hover { color: #da2220; }
     margin: 20px 0px 10px;
     direction:rtl;
 }
-#page-body > h2, #page-body > form > h2, #page-body h3, #page-body > form > h3, div#message h2, #confirm h2, #agreement h2, 
+#page-body > h2, #page-body > form > h2, #page-body h3, #page-body > form > h3, div#message h2, #confirm h2, #agreement h2,
 #page-body h2.title a, #page-body h2.title a:visited { color: #da2220; }
 #page-body h2.title a:hover { color: #da2220; }
 
@@ -403,12 +403,12 @@ fieldset {
     padding: 0;
     border-width: 0;
 }
-fieldset.display-options { 
+fieldset.display-options {
     margin: 5px 0;
-    text-align: center; 
+    text-align: center;
 }
 
-/* 
+/*
 	Font Icons
 */
 [data-icon]:before {
